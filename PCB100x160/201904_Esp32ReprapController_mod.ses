@@ -1,0 +1,1703 @@
+(session C:\Data\Felix\Making\Electronics\201904_Esp32ReprapController\201904_Esp32ReprapController_mod.ses
+# Session file created by SPECCTRA ShapeBased Automation Software V10.2 made 2002/03/20 at 12:04:09
+ (base_design C:\Data\Felix\Making\Electronics\201904_Esp32ReprapController\201904_Esp32ReprapController_mod.dsn)
+ (history
+  (self
+  )
+ )
+ (routes 
+# Routes file created by SPECCTRA ShapeBased Automation Software V10.2 made 2002/03/20 at 12:04:09
+  (resolution um 10)
+  (parser
+   (host_cad "KiCad's Pcbnew")
+   (host_version "(5.0.2)-1")
+  )
+  (structure_out
+   (layer F.Cu (type signal)
+   )
+   (layer B.Cu (type signal)
+   )
+  )
+  (library_out
+  (padstack "Via[0-1]_800:400_um" 
+   (shape (circ F.Cu 8000 0 0))
+   (shape (circ B.Cu 8000 0 0))
+  )
+  )
+  (network_out
+   (net "Net-(A1-Pad3)" 
+   (wire (path B.Cu 10000  749300 -660400 715200 -660400 677100 -622300
+     673100 -622300)
+     (net "Net-(A1-Pad3)" )
+    (connect (terminal smd A1-3) (terminal smd J110-1))
+    (type protect)
+    (attr fanout)
+   )
+   )
+   (net "Net-(A1-Pad4)" 
+   (wire (path B.Cu 10000  749300 -685800 715200 -685800 677100 -647700
+     673100 -647700)
+     (net "Net-(A1-Pad4)" )
+    (connect (terminal smd A1-4) (terminal smd J110-2))
+    (type protect)
+   )
+   )
+   (net "Net-(A1-Pad5)" 
+   (wire (path B.Cu 10000  749300 -711200 715200 -711200 677100 -673100
+     673100 -673100)
+     (net "Net-(A1-Pad5)" )
+    (connect (terminal smd A1-5) (terminal smd J110-3))
+    (type protect)
+   )
+   )
+   (net "Net-(A1-Pad6)" 
+   (wire (path B.Cu 10000  749300 -736600 693200 -736600 673100 -716500
+     673100 -698500)
+     (net "Net-(A1-Pad6)" )
+    (connect (terminal smd A1-6) (terminal smd J110-4))
+    (type protect)
+   )
+   )
+   (net "Net-(A1-Pad12)" 
+   )
+   (net "Net-(A1-Pad13)" 
+   )
+   (net "Net-(A1-Pad14)" 
+   )
+   (net "Net-(A2-Pad3)" 
+   (wire (path B.Cu 10000  1000950 -660400 962850 -622300 958850 -622300)
+     (net "Net-(A2-Pad3)" )
+    (connect (terminal wire) (terminal smd J120-1))
+    (type protect)
+   )
+   (wire (path B.Cu 10000  1000950 -660400 1036320 -660400)
+     (net "Net-(A2-Pad3)" )
+    (connect (terminal wire) (terminal smd A2-3))
+    (type protect)
+    (attr fanout)
+   )
+   )
+   (net "Net-(A2-Pad4)" 
+   (wire (path B.Cu 10000  1036320 -685800 1000950 -685800 962850 -647700
+     958850 -647700)
+     (net "Net-(A2-Pad4)" )
+    (connect (terminal smd A2-4) (terminal smd J120-2))
+    (type protect)
+    (attr fanout)
+   )
+   )
+   (net "Net-(A2-Pad5)" 
+   (wire (path B.Cu 10000  1036320 -711200 1000950 -711200 962850 -673100
+     958850 -673100)
+     (net "Net-(A2-Pad5)" )
+    (connect (terminal smd A2-5) (terminal smd J120-3))
+    (type protect)
+   )
+   )
+   (net "Net-(A2-Pad6)" 
+   (wire (path B.Cu 10000  958850 -716500 958850 -698500)
+     (net "Net-(A2-Pad6)" )
+    (connect (terminal wire) (terminal smd J120-4))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 10000  978950 -736600 1036320 -736600)
+     (net "Net-(A2-Pad6)" )
+    (connect (terminal wire) (terminal smd A2-6))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 10000  958850 -716500 978950 -736600)
+     (net "Net-(A2-Pad6)" )
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   )
+   (net "Net-(A2-Pad12)" 
+   )
+   (net "Net-(A2-Pad13)" 
+   )
+   (net "Net-(A2-Pad14)" 
+   )
+   (net "Net-(A3-Pad3)" 
+   (wire (path B.Cu 10000  745300 -1117600 749300 -1117600)
+     (net "Net-(A3-Pad3)" )
+    (connect (terminal wire) (terminal smd A3-3))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 10000  707200 -1079500 673100 -1079500)
+     (net "Net-(A3-Pad3)" )
+    (connect (terminal wire) (terminal smd J130-1))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 10000  745300 -1117600 707200 -1079500)
+     (net "Net-(A3-Pad3)" )
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   )
+   (net "Net-(A3-Pad4)" 
+   (wire (path B.Cu 10000  707200 -1104900 745300 -1143000)
+     (net "Net-(A3-Pad4)" )
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path B.Cu 10000  745300 -1143000 749300 -1143000)
+     (net "Net-(A3-Pad4)" )
+    (connect (terminal wire) (terminal smd A3-4))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 10000  707200 -1104900 673100 -1104900)
+     (net "Net-(A3-Pad4)" )
+    (connect (terminal wire) (terminal smd J130-2))
+    (type protect)
+    (attr fanout)
+   )
+   )
+   (net "Net-(A3-Pad5)" 
+   (wire (path B.Cu 10000  707200 -1130300 745300 -1168400)
+     (net "Net-(A3-Pad5)" )
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path B.Cu 10000  745300 -1168400 749300 -1168400)
+     (net "Net-(A3-Pad5)" )
+    (connect (terminal wire) (terminal smd A3-5))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 10000  707200 -1130300 673100 -1130300)
+     (net "Net-(A3-Pad5)" )
+    (connect (terminal wire) (terminal smd J130-3))
+    (type protect)
+    (attr fanout)
+   )
+   )
+   (net "Net-(A3-Pad6)" 
+   (wire (path B.Cu 10000  673100 -1155700 711200 -1193800 749300 -1193800)
+     (net "Net-(A3-Pad6)" )
+    (connect (terminal smd J130-4) (terminal smd A3-6))
+    (type protect)
+    (attr fanout)
+   )
+   )
+   (net "Net-(A3-Pad12)" 
+   )
+   (net "Net-(A3-Pad13)" 
+   )
+   (net "Net-(A3-Pad14)" 
+   )
+   (net "Net-(A4-Pad3)" 
+   (wire (path B.Cu 10000  958850 -1066800 980250 -1066800 1031050 -1117600
+     1035050 -1117600)
+     (net "Net-(A4-Pad3)" )
+    (connect (terminal smd J140-1) (terminal smd A4-3))
+    (type protect)
+    (attr fanout)
+   )
+   )
+   (net "Net-(A4-Pad4)" 
+   (wire (path B.Cu 10000  1031050 -1143000 1035050 -1143000)
+     (net "Net-(A4-Pad4)" )
+    (connect (terminal wire) (terminal smd A4-4))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 10000  980250 -1092200 958850 -1092200)
+     (net "Net-(A4-Pad4)" )
+    (connect (terminal wire) (terminal smd J140-2))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 10000  1031050 -1143000 980250 -1092200)
+     (net "Net-(A4-Pad4)" )
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   )
+   (net "Net-(A4-Pad5)" 
+   (wire (path B.Cu 10000  958850 -1117600 980250 -1117600 1031050 -1168400
+     1035050 -1168400)
+     (net "Net-(A4-Pad5)" )
+    (connect (terminal smd J140-3) (terminal smd A4-5))
+    (type protect)
+   )
+   )
+   (net "Net-(A4-Pad6)" 
+   (wire (path B.Cu 10000  958850 -1143000 1009650 -1193800 1035050 -1193800)
+     (net "Net-(A4-Pad6)" )
+    (connect (terminal smd J140-4) (terminal smd A4-6))
+    (type protect)
+   )
+   )
+   (net "Net-(A4-Pad12)" 
+   )
+   (net "Net-(A4-Pad13)" 
+   )
+   (net "Net-(A4-Pad14)" 
+   )
+   (net "Net-(J10-Pad2)" 
+   (wire (path B.Cu 20000  431800 -877570 359880 -877570 336550 -900900)
+     (net "Net-(J10-Pad2)" )
+    (connect (terminal smd Q1-2) (terminal smd J10-2))
+    (type protect)
+   )
+   )
+   (net "Net-(J11-Pad2)" 
+   (wire (path B.Cu 20000  375450 -773900 375450 -773650 399800 -749300)
+     (net "Net-(J11-Pad2)" )
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path B.Cu 20000  375450 -773900 336550 -773900)
+     (net "Net-(J11-Pad2)" )
+    (connect (terminal wire) (terminal smd J11-2))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 20000  399800 -749300 431800 -749300)
+     (net "Net-(J11-Pad2)" )
+    (connect (terminal wire) (terminal smd Q2-2))
+    (type protect)
+    (attr fanout)
+   )
+   )
+   (net "Net-(J12-Pad2)" 
+   (wire (path B.Cu 10000  409800 -622300 406400 -618900 406400 -558800
+     431800 -533400)
+     (net "Net-(J12-Pad2)" )
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path B.Cu 10000  463550 -533400 514350 -533400)
+     (net "Net-(J12-Pad2)" )
+    (connect (terminal smd J12-2) (terminal smd J13-2))
+    (type protect)
+   )
+   (wire (path B.Cu 10000  463550 -533400 431800 -533400)
+     (net "Net-(J12-Pad2)" )
+    (connect (terminal smd J12-2) (terminal wire))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 10000  409800 -622300 431800 -622300)
+     (net "Net-(J12-Pad2)" )
+    (connect (terminal wire) (terminal smd Q3-2))
+    (type protect)
+    (attr fanout)
+   )
+   )
+   (net "Net-(J50-Pad2)" 
+   (wire (path B.Cu 3000  763833 -1311160 763833 -1294659 696078 -1294659
+     682637 -1308100 641350 -1308100)
+    (connect (terminal smd J50-2) (terminal smd JP50-2))
+   )
+   )
+   (net "Net-(J60-Pad1)" 
+   )
+   (net "Net-(J60-Pad2)" 
+   (wire (path B.Cu 3000  444500 -1238250 444500 -1211748 546204 -1211748
+     565529 -1231073 565529 -1289050 584200 -1289050)
+    (connect (terminal smd J60-2) (terminal smd JP60-2))
+   )
+   )
+   (net "Net-(J60-Pad3)" 
+   )
+   (net "Net-(J60-Pad4)" 
+   )
+   (net "Net-(J60-Pad5)" 
+   )
+   (net "Net-(J60-Pad7)" 
+   )
+   (net "Net-(J150-Pad16)" 
+   (wire (path B.Cu 3000  1115683 -1722010 1115683 -1688461 1114933 -1687711
+     1114933 -1671210)
+    (connect (terminal smd J150-16) (terminal smd U1-16))
+   )
+   )
+   (net "Net-(J150-Pad17)" 
+   (wire (path B.Cu 3000  1140333 -1671210 1140333 -1704759 1141083 -1705509
+     1141083 -1722010)
+    (connect (terminal smd U1-17) (terminal smd J150-17))
+   )
+   )
+   (net "Net-(J150-Pad18)" 
+   (wire (path B.Cu 3000  1166483 -1722010 1166483 -1688461 1165733 -1687711
+     1165733 -1671210)
+    (connect (terminal smd J150-18) (terminal smd U1-18))
+   )
+   )
+   (net "Net-(J151-Pad4)" 
+   (wire (path B.Cu 3000  810133 -1417210 810133 -1383661 810883 -1382911
+     810883 -1366410)
+    (connect (terminal smd U1-23) (terminal smd J151-4))
+   )
+   )
+   (net "Net-(J151-Pad5)" 
+   (wire (path B.Cu 3000  836283 -1366410 836283 -1399959 835533 -1400709
+     835533 -1417210)
+    (connect (terminal smd J151-5) (terminal smd U1-24))
+   )
+   )
+   (net "Net-(J151-Pad14)" 
+   (wire (path B.Cu 3000  1064133 -1417210 1064133 -1383661 1064883 -1382911
+     1064883 -1366410)
+    (connect (terminal smd U1-33) (terminal smd J151-14))
+   )
+   )
+   (net "Net-(J151-Pad17)" 
+   (wire (path B.Cu 3000  1140333 -1417210 1140333 -1383661 1141083 -1382911
+     1141083 -1366410)
+    (connect (terminal smd U1-36) (terminal smd J151-17))
+   )
+   )
+   (net "Net-(J151-Pad18)" 
+   (wire (path B.Cu 3000  1165733 -1417210 1165733 -1383661 1166483 -1382911
+     1166483 -1366410)
+    (connect (terminal smd U1-37) (terminal smd J151-18))
+   )
+   )
+   (net "Net-(J151-Pad19)" 
+   (wire (path B.Cu 3000  1191133 -1417210 1191133 -1383661 1191883 -1382911
+     1191883 -1366410)
+    (connect (terminal smd U1-38) (terminal smd J151-19))
+   )
+   )
+   (net "Net-(Q1-Pad1)" 
+   (wire (path B.Cu 3000  431800 -852170 475179 -852170 476449 -850900
+     488950 -850900)
+    (connect (terminal smd Q1-1) (terminal smd R10-1))
+   )
+   )
+   (net "Net-(Q2-Pad1)" 
+   (wire (path B.Cu 3000  488950 -723900 431800 -723900)
+    (connect (terminal smd R12-1) (terminal smd Q2-1))
+   )
+   )
+   (net "Net-(Q3-Pad1)" 
+   (wire (path B.Cu 3000  488950 -615950 469900 -596900 431800 -596900)
+    (connect (terminal smd R14-1) (terminal smd Q3-1))
+   )
+   )
+   (net "Net-(U3-Pad9)" 
+   )
+   (net "Net-(U4-Pad9)" 
+   )
+   (net +5V 
+   (wire (path B.Cu 3000  981050 -368300 801785 -368300 639237 -530848
+     639237 -655008 600849 -693396 572057 -693396 562460 -702993
+     562460 -787830 532455 -817835 532455 -918193 511451 -939197
+     511451 -1050063 386565 -1174949 288299 -1174949 288299 -1201221
+     314570 -1227492 391680 -1227492 422474 -1196698 593132 -1196698
+     603051 -1206617 603051 -1276050)
+    (connect (terminal smd U2-3) (terminal wire))
+   )
+   (wire (path B.Cu 3000  603051 -1276050 603051 -1295100 641350 -1295100)
+    (connect (terminal wire) (terminal smd JP50-3))
+   )
+   (wire (path B.Cu 3000  603051 -1276050 584200 -1276050)
+    (connect (terminal wire) (terminal smd JP60-3))
+   )
+   (wire (path B.Cu 3000  1073150 -406400 1073150 -393899 1150769 -393899
+     1228388 -471518 1228388 -1749554 1209426 -1768516 933950 -1768516
+     924984 -1759550 924984 -1696786 924632 -1696434 924632 -1660639
+     936563 -1648708 965417 -1648708 975034 -1658325 975034 -1696235
+     975784 -1696985 975784 -1732631 987665 -1744512 1051984 -1744512
+     1057985 -1738511)
+    (connect (terminal smd D1-2) (terminal wire))
+   )
+   (wire (path B.Cu 3000  1073150 -406400 1000100 -406400 981050 -387350
+     981050 -368300)
+    (connect (terminal smd D1-2) (terminal smd U2-3))
+   )
+   (wire (path B.Cu 3000  1057985 -1738511 1051984 -1732510 1051984 -1696985
+     1051234 -1696235 1051234 -1614683 1024051 -1587500 495300 -1587500)
+    (connect (terminal wire) (terminal smd J40-10))
+   )
+   (wire (path B.Cu 3000  1191883 -1722010 1191883 -1738511 1057985 -1738511)
+    (connect (terminal smd J150-19) (terminal wire))
+   )
+   (wire (path B.Cu 3000  1191883 -1722010 1191883 -1705509 1191133 -1704759
+     1191133 -1671210)
+    (connect (terminal smd J150-19) (terminal smd U1-19))
+   )
+   )
+   (net +24V 
+   (wire (path F.Cu 3000  942349 -793551 942349 -1206699)
+    (connect (terminal via) (terminal wire))
+   )
+   (wire (path F.Cu 3000  943849 -1215200 943849 -1206699 942349 -1206699)
+    (connect (terminal via) (terminal wire))
+   )
+   (wire (path F.Cu 3000  853814 -1206699 942349 -1206699)
+    (connect (terminal via) (terminal wire))
+   )
+   (wire (path B.Cu 3000  958850 -1244600 943849 -1229599 943849 -1215200)
+    (connect (terminal smd C140-1) (terminal via))
+   )
+   (wire (path B.Cu 3000  942349 -793551 942349 -540700 975049 -508000
+     1073150 -508000)
+    (connect (terminal via) (terminal smd D1-1))
+   )
+   (wire (path F.Cu 3000  666750 -817900 853814 -1004964 853814 -1206699)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path F.Cu 3000  336550 -817900 666750 -817900)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path B.Cu 3000  666750 -787400 666750 -817900)
+    (connect (terminal smd C110-1) (terminal via))
+   )
+   (wire (path B.Cu 3000  958850 -781050 958850 -793551 942349 -793551)
+    (connect (terminal smd C120-1) (terminal via))
+   )
+   (wire (path B.Cu 3000  749300 -1244600 824414 -1244600 853814 -1215200
+     853814 -1206699)
+    (connect (terminal smd A3-8) (terminal via))
+   )
+   (wire (path B.Cu 10000  958850 -1244600 971351 -1244600 1035050 -1244600)
+     (net +24V )
+    (connect (terminal smd C140-1) (terminal smd A4-8))
+    (type protect)
+   )
+   (wire (path B.Cu 10000  666750 -787400 692349 -787400 749300 -787400)
+     (net +24V )
+    (connect (terminal smd C110-1) (terminal smd A1-8))
+    (type protect)
+   )
+   (wire (path B.Cu 20000  321250 -751900 310550 -762600 310550 -780899
+     310550 -791900 310550 -791900 310550 -791900 336550 -817900)
+     (net +24V )
+    (connect (terminal wire) (terminal via))
+    (type protect)
+   )
+   (wire (path B.Cu 10000  958850 -781050 996950 -781050 1003300 -787400
+     1036320 -787400)
+     (net +24V )
+    (connect (terminal smd C120-1) (terminal smd A2-8))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 10000  374650 -736600 361950 -749300 323850 -749300
+     321250 -751900)
+     (net +24V )
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path B.Cu 20000  393700 -497850 365416 -497850 310550 -552716
+     310550 -659380 336970 -685800 347850 -685800 374650 -712600
+     374650 -736600)
+     (net +24V )
+    (connect (terminal smd F1-1) (terminal wire))
+    (type protect)
+   )
+   (wire (path B.Cu 10000  463550 -508000 463550 -508000 514350 -508000)
+     (net +24V )
+    (connect (terminal smd J12-1) (terminal smd J13-1))
+    (type protect)
+   )
+   (wire (path B.Cu 10000  514350 -508000 514350 -490000 581050 -423300)
+     (net +24V )
+    (connect (terminal smd J13-1) (terminal wire))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 10000  581050 -423300 581050 -390300)
+     (net +24V )
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path B.Cu 20000  393700 -497850 393700 -539750 336550 -596900)
+     (net +24V )
+    (connect (terminal smd F1-1) (terminal smd J14-1))
+    (type protect)
+   )
+   (wire (path B.Cu 10000  581050 -390300 581050 -368300)
+     (net +24V )
+    (connect (terminal wire) (terminal smd U2-1))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 10000  463550 -508000 453400 -497850 393700 -497850)
+     (net +24V )
+    (connect (terminal smd J12-1) (terminal smd F1-1))
+    (type protect)
+   )
+   (wire (path B.Cu 20000  336550 -817900 336550 -850900)
+     (net +24V )
+    (connect (terminal via) (terminal smd J10-1))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 10000  749300 -1244600 673100 -1244600)
+     (net +24V )
+    (connect (terminal smd A3-8) (terminal smd C130-1))
+    (type protect)
+   )
+   (via "Via[0-1]_800:400_um" 943849 -1215200)
+   (via "Via[0-1]_800:400_um" 942349 -793551)
+   (via "Via[0-1]_800:400_um" 853814 -1206699)
+   (via "Via[0-1]_800:400_um" 666750 -817900)
+   (via "Via[0-1]_800:400_um" 336550 -817900)
+   )
+   (net +24V2 
+   (wire (path B.Cu 30000  282550 -712900 293550 -723900 336550 -723900)
+     (net +24V2 )
+    (connect (terminal wire) (terminal smd J11-1))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 30000  282550 -532800 317500 -497850)
+     (net +24V2 )
+    (connect (terminal wire) (terminal smd F2-1))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 30000  282550 -712900 282550 -532800)
+     (net +24V2 )
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   )
+   (net /BED 
+   (wire (path B.Cu 3000  590550 -774700 578049 -774700 578049 -723900
+     590550 -723900)
+    (connect (terminal smd R13-2) (terminal smd R12-2))
+   )
+   (wire (path B.Cu 3000  590550 -774700 590550 -806285 549449 -847386
+     549449 -1154446 557649 -1162646 600702 -1162646 615053 -1176997
+     615053 -1273186 621465 -1279598 1017780 -1279598 1039483 -1301301
+     1039483 -1366410)
+    (connect (terminal smd R13-2) (terminal smd J151-13))
+   )
+   (wire (path B.Cu 3000  1039483 -1366410 1039483 -1399959 1038733 -1400709
+     1038733 -1417210)
+    (connect (terminal smd J151-13) (terminal smd U1-32))
+   )
+   )
+   (net /BED_T 
+   (wire (path B.Cu 3000  438150 -1327150 456652 -1327150 456652 -1393434
+     445838 -1404248 421504 -1404248 413393 -1412359 413393 -1702993
+     454912 -1744512 772982 -1744512 778983 -1738511)
+    (connect (terminal smd R20-2) (terminal wire))
+   )
+   (wire (path B.Cu 3000  438150 -1327150 384822 -1327150 356148 -1298476
+     356148 -1269801)
+    (connect (terminal smd R20-2) (terminal wire))
+   )
+   (wire (path B.Cu 3000  356148 -1269801 321301 -1269801 308800 -1257300
+     304800 -1257300)
+    (connect (terminal wire) (terminal smd J20-1))
+   )
+   (wire (path B.Cu 3000  356148 -1269801 356148 -1244799 374650 -1244799
+     374650 -1257300)
+    (connect (terminal wire) (terminal smd C20-1))
+   )
+   (wire (path B.Cu 3000  778983 -1738511 810883 -1738511 810883 -1722010)
+    (connect (terminal wire) (terminal smd J150-4))
+   )
+   (wire (path B.Cu 3000  778983 -1738511 772982 -1732510 772982 -1696985
+     772232 -1696235 772232 -1654709 810133 -1654709 810133 -1671210)
+    (connect (terminal wire) (terminal smd U1-4))
+   )
+   )
+   (net /BEEPER 
+   (wire (path B.Cu 3000  1014083 -1366410 1014083 -1330534 978208 -1294659
+     859916 -1294659 852932 -1301643 852932 -1322595 862243 -1331906
+     942943 -1331906 950384 -1339347 950384 -1391435 949634 -1392185
+     949634 -1433711 899232 -1433711 899232 -1391986 899584 -1391634
+     899584 -1349909 772584 -1349909 772584 -1391435 771834 -1392185
+     771834 -1457993 706026 -1523801 482401 -1523801 482401 -1485900
+     469900 -1485900)
+    (connect (terminal smd J151-12) (terminal smd J40-1))
+   )
+   (wire (path B.Cu 3000  1014083 -1366410 1014083 -1399959 1013333 -1400709
+     1013333 -1417210)
+    (connect (terminal smd J151-12) (terminal smd U1-31))
+   )
+   )
+   (net /BTN_EN1 
+   (wire (path B.Cu 3000  1039483 -1722010 1039483 -1738511 1001184 -1738511
+     1001184 -1696985 1000434 -1696235 1000434 -1630880 991098 -1621544
+     457178 -1621544 443398 -1607764 443398 -1511300 469900 -1511300)
+    (connect (terminal smd J150-13) (terminal smd J40-3))
+   )
+   (wire (path B.Cu 3000  1039483 -1722010 1039483 -1688461 1038733 -1687711
+     1038733 -1671210)
+    (connect (terminal smd J150-13) (terminal smd U1-13))
+   )
+   )
+   (net /BTN_EN2 
+   (wire (path B.Cu 3000  1013333 -1671210 1013333 -1627090 998627 -1612384
+     468320 -1612384 449399 -1593463 449399 -1536700 469900 -1536700)
+    (connect (terminal smd U1-12) (terminal smd J40-5))
+   )
+   (wire (path B.Cu 3000  1013333 -1671210 1013333 -1704759 1014083 -1705509
+     1014083 -1722010)
+    (connect (terminal smd U1-12) (terminal smd J150-12))
+   )
+   )
+   (net /BTN_ENC 
+   (wire (path B.Cu 3000  911733 -1671210 911733 -1640831 901607 -1630705
+     455384 -1630705 437397 -1612718 437397 -1486807 458025 -1466179
+     510051 -1466179 519911 -1476039 519911 -1485900 495300 -1485900)
+    (connect (terminal smd U1-8) (terminal smd J40-2))
+   )
+   (wire (path B.Cu 3000  911733 -1671210 911733 -1704759 912483 -1705509
+     912483 -1722010)
+    (connect (terminal smd U1-8) (terminal smd J150-8))
+   )
+   )
+   (net /FAN 
+   (wire (path B.Cu 3000  590550 -645399 590550 -615950)
+    (connect (terminal via) (terminal smd R14-2))
+   )
+   (wire (path B.Cu 3000  590550 -645399 590550 -660400)
+    (connect (terminal via) (terminal smd R15-2))
+   )
+   (wire (path B.Cu 3000  1089533 -1671210 1089533 -1704759 1090283 -1705509
+     1090283 -1722010)
+    (connect (terminal smd U1-15) (terminal smd J150-15))
+   )
+   (wire (path B.Cu 3000  1089533 -1671210 1089533 -1602501)
+    (connect (terminal smd U1-15) (terminal via))
+   )
+   (wire (path F.Cu 3000  1089533 -1602501 1089533 -894890 840042 -645399
+     590550 -645399)
+    (connect (terminal via) (terminal via))
+   )
+   (via "Via[0-1]_800:400_um" 590550 -645399)
+   (via "Via[0-1]_800:400_um" 1089533 -1602501)
+   )
+   (net /I2S_BCK 
+   (wire (path B.Cu 3000  898802 -1186902 898802 -1222349 889052 -1232099
+     866049 -1232099 859799 -1238349 859799 -1257101)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  963283 -1722010 963283 -1743388 970408 -1750513
+     1189761 -1750513 1204384 -1735890 1204384 -1310315 1100768 -1206699
+     935107 -1206699 928807 -1212999 928807 -1246076 917782 -1257101
+     859799 -1257101)
+    (connect (terminal smd J150-10) (terminal wire))
+   )
+   (wire (path B.Cu 3000  590550 -1117600 603051 -1105099 624545 -1105099
+     646038 -1126592 646038 -1240788 662351 -1257101 859799 -1257101)
+    (connect (terminal smd R161-1) (terminal wire))
+   )
+   (wire (path B.Cu 3000  898802 -1186902 904803 -1180901 904803 -1044988
+     919496 -1030295 1005678 -1030295 1022350 -1013623 1022350 -996950)
+    (connect (terminal wire) (terminal smd U4-11))
+   )
+   (wire (path B.Cu 3000  590550 -1117600 577850 -1104900 577850 -1066800)
+    (connect (terminal smd R161-1) (terminal smd R160-2))
+   )
+   (wire (path B.Cu 3000  898802 -1186902 892801 -1180901 802051 -1180901
+     771802 -1150652 771802 -1039797 740638 -1039797 730250 -1029409
+     730250 -996950)
+    (connect (terminal wire) (terminal smd U3-11))
+   )
+   (wire (path B.Cu 3000  963283 -1722010 963283 -1688461 962533 -1687711
+     962533 -1671210)
+    (connect (terminal smd J150-10) (terminal smd U1-10))
+   )
+   )
+   (net /I2S_DATA 
+   (wire (path B.Cu 3000  987933 -1671210 987933 -1704759 988683 -1705509
+     988683 -1722010)
+    (connect (terminal smd U1-11) (terminal smd J150-11))
+   )
+   (wire (path B.Cu 3000  987933 -1671210 987933 -1637709)
+    (connect (terminal smd U1-11) (terminal via))
+   )
+   (wire (path B.Cu 3000  807554 -1016952 806451 -1015849 806451 -996950
+     806450 -996950)
+    (connect (terminal via) (terminal smd U3-14))
+   )
+   (wire (path F.Cu 3000  807554 -1016952 807554 -1457330 987933 -1637709)
+    (connect (terminal via) (terminal via))
+   )
+   (via "Via[0-1]_800:400_um" 987933 -1637709)
+   (via "Via[0-1]_800:400_um" 807554 -1016952)
+   )
+   (net /I2S_WS 
+   (wire (path B.Cu 3000  937883 -1722010 937883 -1739262 955135 -1756514
+     1194432 -1756514 1210385 -1740561 1210385 -838105 1201027 -828747
+     1075023 -828747 1060649 -843121 1060649 -873546 1086049 -898946
+     1086049 -942733 1102761 -959445 1154465 -959445 1161851 -966831
+     1161851 -1006951 1149350 -1019452 1136849 -1006951 1136849 -987074
+     1130224 -980449 1047750 -980449)
+    (connect (terminal smd J150-9) (terminal wire))
+   )
+   (wire (path B.Cu 3000  1047750 -980449 1039050 -971749 852817 -971749
+     844749 -979817 844749 -1024283 856762 -1036296 874782 -1036296
+     892801 -1054315 892801 -1098403 886503 -1104701 794089 -1104701
+     783804 -1094416 783804 -1022420 762017 -1022420 755650 -1016053
+     755650 -996950)
+    (connect (terminal wire) (terminal smd U3-12))
+   )
+   (wire (path B.Cu 3000  1047750 -980449 1047750 -996950)
+    (connect (terminal wire) (terminal smd U4-12))
+   )
+   (wire (path B.Cu 3000  937883 -1722010 937883 -1688461 937133 -1687711
+     937133 -1671210)
+    (connect (terminal smd J150-9) (terminal smd U1-9))
+   )
+   )
+   (net /LCD_D4 
+   (wire (path B.Cu 3000  784733 -1417210 784733 -1476955 724988 -1536700
+     495300 -1536700)
+    (connect (terminal smd U1-22) (terminal smd J40-6))
+   )
+   (wire (path B.Cu 3000  784733 -1417210 784733 -1383661 785483 -1382911
+     785483 -1366410)
+    (connect (terminal smd U1-22) (terminal smd J151-3))
+   )
+   )
+   (net /LCD_EN 
+   (wire (path B.Cu 3000  860933 -1417210 860933 -1486405 791738 -1555600
+     522301 -1555600 515801 -1562100 495300 -1562100)
+    (connect (terminal smd U1-25) (terminal smd J40-8))
+   )
+   (wire (path B.Cu 3000  860933 -1417210 860933 -1383661 861683 -1382911
+     861683 -1366410)
+    (connect (terminal smd U1-25) (terminal smd J151-6))
+   )
+   )
+   (net /LCD_RS 
+   (wire (path B.Cu 3000  987933 -1417210 987933 -1495906 909237 -1574602
+     469900 -1574602 469900 -1562100)
+    (connect (terminal smd U1-30) (terminal smd J40-7))
+   )
+   (wire (path B.Cu 3000  987933 -1417210 987933 -1383661 988683 -1382911
+     988683 -1366410)
+    (connect (terminal smd U1-30) (terminal smd J151-11))
+   )
+   )
+   (net /NOZZLE 
+   (wire (path B.Cu 3000  603051 -901700 603051 -850900 590550 -850900)
+    (connect (terminal wire) (terminal smd R10-2))
+   )
+   (wire (path B.Cu 3000  1090283 -1349909 1090283 -1311753 1052127 -1273597
+     633020 -1273597 625265 -1265842 625265 -1165988 608786 -1149509
+     565527 -1149509 559348 -1143330 559348 -1034143 603051 -990440
+     603051 -901700)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  603051 -901700 590550 -901700)
+    (connect (terminal wire) (terminal smd R11-2))
+   )
+   (wire (path B.Cu 3000  1090283 -1349909 1128184 -1349909 1128184 -1400334
+     1127434 -1401084 1127434 -1433711 1089533 -1433711 1089533 -1417210)
+    (connect (terminal wire) (terminal smd U1-34))
+   )
+   (wire (path B.Cu 3000  1090283 -1349909 1090283 -1366410)
+    (connect (terminal wire) (terminal smd J151-15))
+   )
+   )
+   (net /NOZZLE_T 
+   (wire (path B.Cu 3000  413393 -1384300 407392 -1390301 407392 -1705487
+     452418 -1750513 812133 -1750513 823384 -1739262 823384 -1705509
+     785483 -1705509)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  785483 -1705509 785483 -1688461 784733 -1687711
+     784733 -1671210)
+    (connect (terminal wire) (terminal smd U1-3))
+   )
+   (wire (path B.Cu 3000  413393 -1384300 413393 -1365349 394443 -1346399
+     374650 -1346399)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  374650 -1346399 364851 -1336600 324750 -1336600
+     308800 -1352550 304800 -1352550)
+    (connect (terminal wire) (terminal smd J21-1))
+   )
+   (wire (path B.Cu 3000  374650 -1346399 374650 -1358900)
+    (connect (terminal wire) (terminal smd C21-1))
+   )
+   (wire (path B.Cu 3000  785483 -1705509 785483 -1722010)
+    (connect (terminal wire) (terminal smd J150-3))
+   )
+   (wire (path B.Cu 3000  413393 -1384300 438150 -1384300)
+    (connect (terminal wire) (terminal smd R21-2))
+   )
+   )
+   (net /PWR_IN 
+   (wire (path B.Cu 30000  396250 -406400 465620 -406400)
+     (net /PWR_IN )
+    (connect (terminal wire) (terminal smd J1-2))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 30000  393700 -403850 396250 -406400)
+     (net /PWR_IN )
+    (connect (terminal smd F1-2) (terminal wire))
+    (type protect)
+   )
+   (wire (path B.Cu 30000  393700 -403850 317500 -403850)
+     (net /PWR_IN )
+    (connect (terminal smd F1-2) (terminal smd F2-2))
+    (type protect)
+   )
+   )
+   (net /Q128 
+   (wire (path B.Cu 3000  857250 -842249 869751 -842249 869751 -935626
+     831850 -973527 831850 -996950)
+    (connect (terminal wire) (terminal smd U3-15))
+   )
+   (wire (path B.Cu 3000  857250 -842249 857250 -823957 842824 -809531
+     842824 -643369 851193 -635000 876300 -635000)
+    (connect (terminal wire) (terminal smd A1-15))
+   )
+   (wire (path B.Cu 3000  857250 -842249 857250 -857250)
+    (connect (terminal wire) (terminal smd J160-1))
+   )
+   )
+   (net /Q129 
+   (wire (path B.Cu 3000  831850 -857250 831850 -879896 838200 -886246
+     847725 -886246 857250 -895771 857250 -920750)
+    (connect (terminal smd J160-2) (terminal smd U3-1))
+   )
+   (wire (path B.Cu 3000  831850 -857250 831850 -631825 854075 -609600
+     876300 -609600)
+    (connect (terminal smd J160-2) (terminal smd A1-16))
+   )
+   )
+   (net /Q130 
+   (wire (path B.Cu 3000  806450 -857250 806450 -878849 831850 -904249
+     831850 -920750)
+    (connect (terminal smd J160-3) (terminal smd U3-2))
+   )
+   (wire (path B.Cu 3000  806450 -857250 806450 -637699 852864 -591285
+     887676 -591285 899279 -602888 899279 -636647 888027 -647899
+     862355 -647899 853798 -656456 853798 -787400 876300 -787400)
+    (connect (terminal smd J160-3) (terminal smd A1-9))
+   )
+   )
+   (net /Q131 
+   (wire (path B.Cu 3000  781050 -857250 781050 -877576 806450 -902976
+     806450 -920750)
+    (connect (terminal smd J160-4) (terminal smd U3-3))
+   )
+   (wire (path B.Cu 3000  781050 -857250 785550 -857250 785550 -574997
+     870370 -490177 1088628 -490177 1124833 -526382 1124833 -615757
+     1144076 -635000 1163320 -635000)
+    (connect (terminal smd J160-4) (terminal smd A2-15))
+   )
+   )
+   (net /Q132 
+   (wire (path B.Cu 3000  768549 -840749 768549 -920750 781050 -920750)
+    (connect (terminal wire) (terminal smd U3-4))
+   )
+   (wire (path B.Cu 3000  768549 -840749 755650 -840749 755650 -857250)
+    (connect (terminal wire) (terminal smd J160-5))
+   )
+   (wire (path B.Cu 3000  768549 -840749 777803 -831495 777803 -566865
+     866013 -478655 1097848 -478655 1163320 -544127 1163320 -609600)
+    (connect (terminal wire) (terminal smd A2-16))
+   )
+   )
+   (net /Q133 
+   (wire (path B.Cu 3000  755650 -920750 755650 -937251 812726 -937251
+     818951 -931026 818951 -899951 793949 -874949 793949 -611070
+     825736 -579283 897259 -579283 921100 -603124 921100 -789619
+     933533 -802052 1163320 -802052 1163320 -787400)
+    (connect (terminal smd U3-5) (terminal smd A2-9))
+   )
+   (wire (path B.Cu 3000  755650 -920750 755650 -902398 730250 -876998
+     730250 -857250)
+    (connect (terminal smd U3-5) (terminal smd J160-6))
+   )
+   )
+   (net /Q134 
+   (wire (path B.Cu 3000  704850 -857250 704850 -840749 666949 -840749
+     666949 -897999 673199 -904249 691951 -904249 691951 -956577
+     699426 -964052 781786 -964052 793551 -975817 793551 -1050826
+     834925 -1092200 876300 -1092200)
+    (connect (terminal smd J160-7) (terminal smd A3-15))
+   )
+   (wire (path B.Cu 3000  704850 -857250 704850 -879547 717550 -892247
+     723900 -892247 730250 -898597 730250 -920750)
+    (connect (terminal smd J160-7) (terminal smd U3-6))
+   )
+   )
+   (net /Q135 
+   (wire (path B.Cu 3000  704850 -920750 704850 -939401 723500 -958051
+     795089 -958051 818951 -981913 818951 -1038126 847625 -1066800
+     876300 -1066800)
+    (connect (terminal smd U3-7) (terminal smd A3-16))
+   )
+   (wire (path B.Cu 3000  704850 -920750 704850 -898248 692150 -898248
+     679450 -885548 679450 -857250)
+    (connect (terminal smd U3-7) (terminal smd J160-8))
+   )
+   )
+   (net /Q136 
+   (wire (path B.Cu 3000  1117949 -1048298 1148952 -1079301 1178551 -1079301
+     1178551 -952176 1168026 -941651 1136451 -941651 1136451 -901238
+     1111449 -876236 1111449 -847099 1117799 -840749 1136849 -840749
+     1149350 -853250 1149350 -857250)
+    (connect (terminal wire) (terminal smd J170-1))
+   )
+   (wire (path B.Cu 3000  1117949 -1048298 941342 -1048298 916805 -1072835
+     916805 -1224348 896553 -1244600 876300 -1244600)
+    (connect (terminal wire) (terminal smd A3-9))
+   )
+   (wire (path B.Cu 3000  1117949 -1048298 1123950 -1042297 1123950 -996950)
+    (connect (terminal wire) (terminal smd U4-15))
+   )
+   )
+   (net /Q137 
+   (wire (path B.Cu 3000  1149350 -904249 1149350 -890812 1136650 -878112
+     1123950 -878112 1123950 -857250)
+    (connect (terminal wire) (terminal smd J170-2))
+   )
+   (wire (path B.Cu 3000  1149350 -904249 1166951 -904249 1184552 -921850
+     1184552 -1092200 1162050 -1092200)
+    (connect (terminal wire) (terminal smd A4-15))
+   )
+   (wire (path B.Cu 3000  1149350 -904249 1149350 -920750)
+    (connect (terminal wire) (terminal smd U4-1))
+   )
+   )
+   (net /Q138 
+   (wire (path B.Cu 3000  1123950 -920750 1123950 -899362 1098550 -873962
+     1098550 -857250)
+    (connect (terminal smd U4-2) (terminal smd J170-3))
+   )
+   (wire (path B.Cu 3000  1123950 -920750 1123950 -944227 1131775 -952052
+     1158833 -952052 1167852 -961071 1167852 -1048497 1162050 -1054299
+     1162050 -1066800)
+    (connect (terminal smd U4-2) (terminal smd A4-16))
+   )
+   )
+   (net /Q139 
+   (wire (path B.Cu 3000  1086049 -873751 1086049 -844498 1095799 -834748
+     1166865 -834748 1190553 -858436 1190553 -1237475 1183428 -1244600
+     1162050 -1244600)
+    (connect (terminal wire) (terminal smd A4-9))
+   )
+   (wire (path B.Cu 3000  1086049 -873751 1073150 -873751 1073150 -857250)
+    (connect (terminal wire) (terminal smd J170-4))
+   )
+   (wire (path B.Cu 3000  1086049 -873751 1092050 -879752 1092050 -920750
+     1098550 -920750)
+    (connect (terminal wire) (terminal smd U4-3))
+   )
+   )
+   (net /Q140 
+   (wire (path B.Cu 3000  1073150 -920750 1073150 -898597 1066800 -892247
+     1057275 -892247 1047750 -882722 1047750 -857250)
+    (connect (terminal smd U4-4) (terminal smd J170-5))
+   )
+   )
+   (net /Q141 
+   (wire (path B.Cu 3000  1047750 -920750 1047750 -898248 1035050 -898248
+     1022350 -885548 1022350 -857250)
+    (connect (terminal smd U4-5) (terminal smd J170-6))
+   )
+   )
+   (net /Q142 
+   (wire (path B.Cu 3000  996950 -857250 996950 -891549 1009650 -904249
+     1022350 -904249 1022350 -920750)
+    (connect (terminal smd J170-7) (terminal smd U4-6))
+   )
+   )
+   (net /Q143 
+   (wire (path B.Cu 3000  996950 -920750 990450 -920750 990450 -898817
+     971550 -879917 971550 -857250)
+    (connect (terminal smd U4-7) (terminal smd J170-8))
+   )
+   )
+   (net /SD_CS 
+   (wire (path B.Cu 3000  963283 -1366410 963283 -1338785 935658 -1311160
+     865433 -1311160)
+    (connect (terminal smd J151-10) (terminal smd J50-6))
+   )
+   (wire (path B.Cu 3000  963283 -1366410 963283 -1399959 962533 -1400709
+     962533 -1417210)
+    (connect (terminal smd J151-10) (terminal smd U1-29))
+   )
+   )
+   (net /SD_MISO 
+   (wire (path B.Cu 3000  912483 -1366410 912483 -1343908 797420 -1343908
+     789233 -1335721 789233 -1311160)
+    (connect (terminal smd J151-8) (terminal smd J50-3))
+   )
+   (wire (path B.Cu 3000  912483 -1366410 912483 -1399959 911733 -1400709
+     911733 -1417210)
+    (connect (terminal smd J151-8) (terminal smd U1-27))
+   )
+   )
+   (net /SD_MOSI 
+   (wire (path B.Cu 3000  760083 -1366410 760083 -1340909 776334 -1324658
+     776334 -1302158 783833 -1294659 814633 -1294659 814633 -1311160)
+    (connect (terminal smd J151-2) (terminal smd J50-4))
+   )
+   (wire (path B.Cu 3000  760083 -1366410 760083 -1399959 759333 -1400709
+     759333 -1417210)
+    (connect (terminal smd J151-2) (terminal smd U1-21))
+   )
+   )
+   (net /SD_SCK 
+   (wire (path B.Cu 3000  937883 -1366410 937883 -1345032 930758 -1337907
+     846719 -1337907 840033 -1331221 840033 -1311160)
+    (connect (terminal smd J151-9) (terminal smd J50-5))
+   )
+   (wire (path B.Cu 3000  937883 -1366410 937883 -1399959 937133 -1400709
+     937133 -1417210)
+    (connect (terminal smd J151-9) (terminal smd U1-28))
+   )
+   )
+   (net /SERVO 
+   (wire (path B.Cu 3000  886333 -1671210 886333 -1649832 879208 -1642707
+     753547 -1642707 746832 -1649422 746832 -1696434 747184 -1696786
+     747184 -1738511 459495 -1738511 419394 -1698410 419394 -1428747
+     430444 -1417697 469123 -1417697 507801 -1379019 507801 -1238250
+     520700 -1238250)
+    (connect (terminal smd U1-7) (terminal smd J60-8))
+   )
+   (wire (path B.Cu 3000  886333 -1671210 886333 -1704759 887083 -1705509
+     887083 -1722010)
+    (connect (terminal smd U1-7) (terminal smd J150-7))
+   )
+   )
+   (net /X_MIN 
+   (wire (path B.Cu 3000  374650 -1021351 400050 -1021351 425450 -995951
+     425450 -965200)
+    (connect (terminal wire) (terminal smd R30-2))
+   )
+   (wire (path B.Cu 3000  304800 -996950 308800 -996950 333201 -1021351
+     374650 -1021351)
+    (connect (terminal smd J30-1) (terminal wire))
+   )
+   (wire (path B.Cu 3000  374650 -1021351 374650 -1008850)
+    (connect (terminal wire) (terminal smd C30-1))
+   )
+   (wire (path B.Cu 3000  836283 -1722010 836283 -1741395 816898 -1760780
+     343872 -1760780 276297 -1693205 276297 -1021453 300800 -996950
+     304800 -996950)
+    (connect (terminal smd J150-5) (terminal smd J30-1))
+   )
+   (wire (path B.Cu 3000  836283 -1722010 836283 -1688461 835533 -1687711
+     835533 -1671210)
+    (connect (terminal smd J150-5) (terminal smd U1-5))
+   )
+   )
+   (net /Y_MIN 
+   (wire (path B.Cu 3000  374650 -1104900 361950 -1092200 304800 -1092200)
+    (connect (terminal smd C31-1) (terminal smd J31-1))
+   )
+   (wire (path B.Cu 3000  374650 -1104900 412750 -1104900 425450 -1092200
+     425450 -1079500)
+    (connect (terminal smd C31-1) (terminal smd R31-2))
+   )
+   (wire (path B.Cu 3000  861683 -1722010 861683 -1747396 836297 -1772782
+     335885 -1772782 264398 -1701295 264398 -999309 279258 -984449
+     383278 -984449 415028 -952699 437951 -952699 437951 -1079500
+     425450 -1079500)
+    (connect (terminal smd J150-6) (terminal smd R31-2))
+   )
+   (wire (path B.Cu 3000  861683 -1722010 861683 -1688461 860933 -1687711
+     860933 -1671210)
+    (connect (terminal smd J150-6) (terminal smd U1-6))
+   )
+   )
+   (net /Z_MIN 
+   (wire (path B.Cu 3000  412949 -1190697 597190 -1190697 609052 -1202559
+     609052 -1285599 1000076 -1285599 1026584 -1312107 1026584 -1391634
+     1026232 -1391986 1026232 -1427781 1038163 -1439712 1067017 -1439712
+     1076634 -1430095 1076634 -1408055 1083980 -1400709 1114933 -1400709)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  1114933 -1400709 1114933 -1383661 1115683 -1382911
+     1115683 -1366410)
+    (connect (terminal wire) (terminal smd J151-16))
+   )
+   (wire (path B.Cu 3000  374650 -1216187 337537 -1216187 308800 -1187450
+     304800 -1187450)
+    (connect (terminal wire) (terminal smd J32-1))
+   )
+   (wire (path B.Cu 3000  412949 -1190697 387459 -1216187 374650 -1216187)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  412949 -1190697 412949 -1168400 425450 -1168400)
+    (connect (terminal wire) (terminal smd R32-2))
+   )
+   (wire (path B.Cu 3000  374650 -1216187 374650 -1200150)
+    (connect (terminal wire) (terminal smd C32-1))
+   )
+   (wire (path B.Cu 3000  1114933 -1400709 1114933 -1417210)
+    (connect (terminal wire) (terminal smd U1-35))
+   )
+   )
+   (net /~RESET 
+   (wire (path B.Cu 3000  759333 -1671210 759333 -1648708 861553 -1648708
+     873434 -1660589 873434 -1696235 874184 -1696985 874184 -1731812
+     886884 -1744512 899584 -1731812 899584 -1696985 898834 -1696235
+     898834 -1651588 883952 -1636706 451071 -1636706 431396 -1617031
+     431396 -1479306 456525 -1454177 517633 -1454177 531913 -1468457
+     531913 -1502147 522760 -1511300 495300 -1511300)
+    (connect (terminal smd U1-2) (terminal smd J40-4))
+   )
+   (wire (path B.Cu 3000  759333 -1671210 759333 -1704759 760083 -1705509
+     760083 -1722010)
+    (connect (terminal smd U1-2) (terminal smd J150-2))
+   )
+   )
+   (net GND 
+   (wire (path B.Cu 3000  533201 -1290100 533201 -1224049 526901 -1217749
+     482799 -1217749 482799 -1250751)
+    (connect (terminal via) (terminal wire))
+   )
+   (wire (path B.Cu 3000  692349 -980449 692349 -1066800)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  641151 -940401 636650 -940401 628650 -932401
+     628650 -927900)
+    (connect (terminal wire) (terminal smd C160-2))
+   )
+   (wire (path B.Cu 3000  1003700 -756050 1010649 -749101 1052821 -749101)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  288299 -1295201 304800 -1295201 304800 -1282700)
+    (connect (terminal wire) (terminal smd J20-2))
+   )
+   (wire (path B.Cu 3000  641151 -940401 641151 -765080 656732 -749499
+     765801 -749499)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  482799 -1250751 431999 -1250751)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  765801 -653502 771802 -647501 771802 -557267
+     862035 -467034 1137705 -467034 1182821 -512150 1182821 -638127
+     1173447 -647501 1107828 -647501 1082826 -622499 1019819 -622499)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  446952 -946349 446952 -1101498 410801 -1137649
+     374650 -1137649)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  1019819 -609600 981050 -570831 981050 -546100)
+    (connect (terminal wire) (terminal smd U2-4))
+   )
+   (wire (path B.Cu 3000  1019819 -622499 1019819 -609600)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  529201 -1566101 823139 -1566101 886333 -1502907
+     886333 -1439712)
+    (connect (terminal via) (terminal wire))
+   )
+   (wire (path B.Cu 3000  1064133 -1493722 1000832 -1430421 1000832 -1391986
+     1001184 -1391634 1001184 -1356608 988484 -1343908 975784 -1356608
+     975784 -1391435 975034 -1392185 975034 -1427831 963153 -1439712
+     886333 -1439712)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  288299 -1131648 288299 -1054299 304800 -1054299)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  304800 -1054299 349847 -1054299 350448 -1054900
+     374650 -1054900)
+    (connect (terminal wire) (terminal smd C31-2))
+   )
+   (wire (path B.Cu 3000  374650 -946349 317400 -946349 304800 -958949
+     304800 -971550)
+    (connect (terminal wire) (terminal smd J30-2))
+   )
+   (wire (path B.Cu 3000  446952 -946349 374650 -946349)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  304800 -1137649 374650 -1137649)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  374650 -1137649 374650 -1150150)
+    (connect (terminal wire) (terminal smd C32-2))
+   )
+   (wire (path B.Cu 3000  288299 -1131648 298799 -1131648 304800 -1137649)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  304800 -1390451 344372 -1390451 355923 -1378900
+     374650 -1378900)
+    (connect (terminal wire) (terminal smd C21-2))
+   )
+   (wire (path B.Cu 3000  288299 -1295201 288299 -1390451 304800 -1390451)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  431999 -1250751 405450 -1277300 374650 -1277300)
+    (connect (terminal wire) (terminal smd C20-2))
+   )
+   (wire (path B.Cu 3000  425998 -1238798 425998 -1244750 431999 -1250751)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  304800 -1390451 304800 -1377950)
+    (connect (terminal wire) (terminal smd J21-2))
+   )
+   (wire (path B.Cu 3000  288299 -1244799 288299 -1295201)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  1019819 -609600 1036320 -609600)
+    (connect (terminal wire) (terminal smd A2-1))
+   )
+   (wire (path B.Cu 3000  1052821 -749101 1052821 -654562 1046158 -647899
+     1026169 -647899 1019819 -641549 1019819 -622499)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  933101 -904249 933101 -822432 944789 -810744
+     1170860 -810744 1179821 -801783 1179821 -781620 1173100 -774899
+     1078619 -774899 1052821 -749101)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  374650 -946349 374650 -958850)
+    (connect (terminal wire) (terminal smd C30-2))
+   )
+   (wire (path B.Cu 3000  448453 -901700 448453 -944848 446952 -946349)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  765801 -653502 765801 -749499)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  749300 -762000 765801 -762000 765801 -749499)
+    (connect (terminal smd A1-7) (terminal wire))
+   )
+   (wire (path B.Cu 3000  482799 -1250751 495300 -1250751 495300 -1238250)
+    (connect (terminal wire) (terminal smd J60-6))
+   )
+   (wire (path B.Cu 3000  641151 -1048298 641151 -940401)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  662600 -1066800 692349 -1066800)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  692349 -1066800 749300 -1066800)
+    (connect (terminal wire) (terminal smd A3-1))
+   )
+   (wire (path B.Cu 3000  1057552 -1054299 1057552 -1066800 1035050 -1066800)
+    (connect (terminal wire) (terminal smd A4-1))
+   )
+   (wire (path B.Cu 3000  641151 -1048298 574824 -1048298 565349 -1057773
+     565349 -1118840 582881 -1136372 609180 -1136372 635478 -1162670
+     635478 -1250548 648032 -1263102 933848 -1263102)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  662600 -1066800 644098 -1048298 641151 -1048298)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  1051551 -1257101 1045550 -1263102 933848 -1263102)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 20000  488950 -901700 476449 -901700 476449 -901700
+     476449 -901700 468459 -901700 468459 -901700 464304 -901700
+     464304 -901700 464304 -901700 464304 -901700 464304 -901700
+     464304 -901700 464304 -901700 461955 -901700 454304 -901700
+     454304 -901700 454304 -901700 454304 -901700 454304 -901700
+     454304 -901700 449953 -901700 449953 -901700 449953 -901700
+     448453 -901700)
+     (net GND )
+    (connect (terminal smd R11-1) (terminal wire))
+    (type protect)
+   )
+   (wire (path B.Cu 3000  304800 -1137649 304800 -1162050)
+    (connect (terminal wire) (terminal smd J32-2))
+   )
+   (wire (path B.Cu 3000  692349 -980449 679450 -967550 679450 -920750)
+    (connect (terminal wire) (terminal smd U3-8))
+   )
+   (wire (path B.Cu 3000  886333 -1417210 886333 -1439712)
+    (connect (terminal smd U1-26) (terminal wire))
+   )
+   (wire (path F.Cu 3000  533201 -1290100 533201 -1553600 529201 -1557600
+     529201 -1566101)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path B.Cu 3000  734683 -1336602 567428 -1336602 533201 -1302375
+     533201 -1290100)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path B.Cu 3000  1064133 -1493722 1108484 -1493722 1152834 -1449372
+     1152834 -1392185 1153584 -1391435 1153584 -1323602 1087083 -1257101
+     1051551 -1257101)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  425998 -1238798 431999 -1232797 431999 -1212509
+     438761 -1205747 590550 -1205747 590550 -1219200)
+    (connect (terminal wire) (terminal smd R161-2))
+   )
+   (wire (path B.Cu 3000  685601 -1219600 656599 -1219600 656599 -1066800
+     662600 -1066800)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  425998 -1238798 294300 -1238798 288299 -1244799)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  304800 -1054299 304800 -1066800)
+    (connect (terminal wire) (terminal smd J31-2))
+   )
+   (wire (path B.Cu 3000  933101 -904249 927100 -910250 927100 -934250)
+    (connect (terminal wire) (terminal smd C170-2))
+   )
+   (wire (path B.Cu 3000  447170 -774700 431800 -774700)
+    (connect (terminal wire) (terminal smd Q2-3))
+   )
+   (wire (path B.Cu 3000  288299 -1244799 282298 -1238798 282298 -1137649
+     288299 -1131648)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 20000  448453 -901700 448303 -901700 448303 -901700
+     448302 -901700 448301 -901700 448301 -901700 433070 -901700
+     431800 -902970)
+     (net GND )
+    (connect (terminal wire) (terminal smd Q1-3))
+    (type protect)
+   )
+   (wire (path B.Cu 3000  734683 -1336602 734683 -1332476 738433 -1328726
+     738433 -1311160)
+    (connect (terminal wire) (terminal smd J50-1))
+   )
+   (wire (path B.Cu 3000  529201 -1596001 520700 -1596001 513509 -1603192
+     469900 -1603192 469900 -1587500)
+    (connect (terminal via) (terminal smd J40-9))
+   )
+   (wire (path F.Cu 3000  529201 -1566101 529201 -1596001)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path B.Cu 3000  692349 -980449 698350 -974448 781050 -974448
+     781050 -996950)
+    (connect (terminal wire) (terminal smd U3-13))
+   )
+   (wire (path B.Cu 3000  1035050 -1219200 1051551 -1219200 1051551 -1257101)
+    (connect (terminal smd A4-7) (terminal wire))
+   )
+   (wire (path B.Cu 3000  933101 -904249 971550 -904249 971550 -920750)
+    (connect (terminal wire) (terminal smd U4-8))
+   )
+   (wire (path B.Cu 3000  765801 -653502 759800 -647501 739425 -647501
+     728750 -636826 728750 -626150 745300 -609600 749300 -609600)
+    (connect (terminal wire) (terminal smd A1-1))
+   )
+   (wire (path B.Cu 3000  734683 -1366410 734683 -1336602)
+    (connect (terminal smd J151-1) (terminal wire))
+   )
+   (wire (path B.Cu 3000  1064133 -1671210 1064133 -1493722)
+    (connect (terminal smd U1-14) (terminal wire))
+   )
+   (wire (path B.Cu 3000  1064133 -1671210 1064133 -1704759 1064883 -1705509
+     1064883 -1722010)
+    (connect (terminal smd U1-14) (terminal smd J150-14))
+   )
+   (wire (path B.Cu 3000  886333 -1417210 886333 -1383661 887083 -1382911
+     887083 -1366410)
+    (connect (terminal smd U1-26) (terminal smd J151-7))
+   )
+   (wire (path B.Cu 3000  734683 -1366410 734683 -1399959 733933 -1400709
+     733933 -1417210)
+    (connect (terminal smd J151-1) (terminal smd U1-20))
+   )
+   (wire (path B.Cu 10000  685601 -1219600 685601 -1219600 685601 -1219600
+     685601 -1219600 685601 -1219600 685601 -1219600 691602 -1219600
+     691602 -1219600 691602 -1219600 691602 -1219600 697603 -1219600
+     697603 -1219600 703604 -1219600 732799 -1219600 748900 -1219600
+     749300 -1219200)
+     (net GND )
+    (connect (terminal wire) (terminal smd A3-7))
+    (type protect)
+   )
+   (wire (path B.Cu 30000  581050 -546100 581050 -529599 581050 -529599
+     581050 -526599 581050 -504100 615950 -469200 615950 -469200
+     615950 -469200 615950 -469200 615950 -469200 615950 -465494
+     615950 -463199 615950 -463199 615950 -463199 615950 -463199
+     615950 -463199 615950 -457198 615950 -457198 615950 -457198
+     615950 -454199 615950 -449699 615950 -449699 615950 -443698
+     615950 -428698 615950 -428697 615950 -428697 615950 -428697
+     615950 -428697 615950 -428697 615950 -400399 615950 -400399
+     615950 -387897 615950 -387897 615950 -387897 615950 -377431
+     615950 -377431 615950 -377431 615950 -377431 615950 -362430
+     615950 -362430 615950 -362430 615950 -362430 615950 -362430
+     591820 -338300 540720 -338300 515620 -363400)
+     (net GND )
+    (connect (terminal smd U2-2) (terminal wire))
+    (type protect)
+   )
+   (wire (path B.Cu 10000  685601 -1219600 673100 -1219600)
+     (net GND )
+    (connect (terminal wire) (terminal smd C130-2))
+    (type protect)
+   )
+   (wire (path B.Cu 20000  488950 -774700 488950 -800100 509950 -821100
+     509950 -821100 509950 -838399 509950 -874699 509950 -880700
+     509950 -880700 509950 -880700 496950 -893700)
+     (net GND )
+    (connect (terminal smd R13-1) (terminal wire))
+    (type protect)
+   )
+   (wire (path B.Cu 30000  488950 -774700 539750 -723900 539750 -711399
+     539750 -698500 501650 -660400)
+     (net GND )
+    (connect (terminal smd R13-1) (terminal wire))
+    (type protect)
+   )
+   (wire (path B.Cu 10000  336550 -646900 431000 -646900 431800 -647700)
+     (net GND )
+    (connect (terminal smd J14-2) (terminal smd Q3-3))
+    (type protect)
+   )
+   (wire (path B.Cu 30000  515620 -363400 515620 -406400)
+     (net GND )
+    (connect (terminal wire) (terminal smd J1-1))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 30000  488950 -660400 501650 -660400)
+     (net GND )
+    (connect (terminal smd R15-1) (terminal wire))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 20000  336550 -646900 337350 -647700)
+     (net GND )
+    (connect (terminal smd J14-2) (terminal wire))
+    (type protect)
+   )
+   (wire (path B.Cu 30000  488950 -774700 477636 -774700 447170 -774700)
+     (net GND )
+    (connect (terminal smd R13-1) (terminal wire))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 30000  581050 -546100 581050 -568300)
+     (net GND )
+    (connect (terminal smd U2-2) (terminal wire))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 30000  488950 -660400 581050 -568300)
+     (net GND )
+    (connect (terminal smd R15-1) (terminal wire))
+    (type protect)
+   )
+   (wire (path B.Cu 20000  488950 -901700 496950 -893700)
+     (net GND )
+    (connect (terminal smd R11-1) (terminal wire))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 10000  1003700 -756050 958850 -756050)
+     (net GND )
+    (connect (terminal wire) (terminal smd C120-2))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 10000  1003700 -756050 1009650 -762000 1036320 -762000)
+     (net GND )
+    (connect (terminal wire) (terminal smd A2-7))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 10000  748900 -762400 666750 -762400)
+     (net GND )
+    (connect (terminal wire) (terminal smd C110-2))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 10000  749300 -762000 748900 -762400)
+     (net GND )
+    (connect (terminal smd A1-7) (terminal wire))
+    (type protect)
+   )
+   (wire (path B.Cu 10000  431800 -647700 476250 -647700 488950 -660400)
+     (net GND )
+    (connect (terminal smd Q3-3) (terminal smd R15-1))
+    (type protect)
+   )
+   (wire (path B.Cu 10000  1034650 -1219600 958850 -1219600)
+     (net GND )
+    (connect (terminal wire) (terminal smd C140-2))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path B.Cu 10000  1035050 -1219200 1034650 -1219600)
+     (net GND )
+    (connect (terminal smd A4-7) (terminal wire))
+    (type protect)
+   )
+   (via "Via[0-1]_800:400_um" 529201 -1596001)
+   (via "Via[0-1]_800:400_um" 529201 -1566101)
+   (via "Via[0-1]_800:400_um" 533201 -1290100)
+   )
+   (net VCC 
+   (wire (path B.Cu 3000  927100 -1013451 927100 -984250)
+    (connect (terminal wire) (terminal smd C170-1))
+   )
+   (wire (path B.Cu 3000  609052 -838399 577850 -838399 577850 -965200)
+    (connect (terminal wire) (terminal smd R160-1))
+   )
+   (wire (path B.Cu 3000  1163320 -762000 1179822 -762000 1179822 -736600)
+    (connect (terminal smd A2-10) (terminal wire))
+   )
+   (wire (path B.Cu 3000  1179822 -678902 1179822 -736600)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  978050 -946751 914114 -946751 892802 -925439
+     892802 -762000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  892802 -762000 892802 -736600 876300 -736600)
+    (connect (terminal wire) (terminal smd A1-11))
+   )
+   (wire (path B.Cu 3000  1145549 -1219200 1145549 -1193800)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  1145549 -1193800 1145549 -1143000 1094749 -1092200
+     1035050 -1092200)
+    (connect (terminal wire) (terminal smd A4-2))
+   )
+   (wire (path B.Cu 3000  704850 -1048298 765801 -1048298 765801 -1092200)
+    (connect (terminal via) (terminal wire))
+   )
+   (wire (path B.Cu 3000  876300 -1193800 791201 -1193800 765801 -1168400
+     765801 -1092200)
+    (connect (terminal smd A3-11) (terminal wire))
+   )
+   (wire (path B.Cu 3000  539750 -1384300 539750 -1410237 513813 -1436174
+     447499 -1436174 425395 -1458278 425395 -1659032 454074 -1687711
+     733933 -1687711)
+    (connect (terminal smd R21-1) (terminal wire))
+   )
+   (wire (path B.Cu 3000  733933 -1687711 734683 -1688461 734683 -1722010)
+    (connect (terminal wire) (terminal smd J150-1))
+   )
+   (wire (path B.Cu 3000  609052 -717400 603051 -711399 577250 -711399
+     568650 -719999 568650 -791736 539551 -820835 539551 -965200)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  539551 -1079500 539551 -965200)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  539551 -965200 527050 -965200)
+    (connect (terminal wire) (terminal smd R30-1))
+   )
+   (wire (path B.Cu 3000  539550 -1168400 539551 -1168400 539551 -1079500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  539550 -1179148 539550 -1168400)
+    (connect (terminal via) (terminal wire))
+   )
+   (wire (path B.Cu 3000  539551 -1079500 527050 -1079500)
+    (connect (terminal wire) (terminal smd R31-1))
+   )
+   (wire (path B.Cu 3000  609052 -838399 609052 -958302 628650 -977900)
+    (connect (terminal wire) (terminal smd C160-1))
+   )
+   (wire (path B.Cu 3000  609052 -717400 609052 -838399)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  898802 -1019452 921099 -1019452 927100 -1013451)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  927100 -1013451 996950 -1013451 996950 -996950)
+    (connect (terminal wire) (terminal smd U4-10))
+   )
+   (wire (path B.Cu 3000  1179822 -736600 1163320 -736600)
+    (connect (terminal wire) (terminal smd A2-11))
+   )
+   (wire (path B.Cu 3000  978050 -946751 984051 -940750 984051 -907748
+     953048 -876745 953048 -846745 983048 -816745 1185823 -816745)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  1163320 -762000 1163320 -768500 1185823 -768500
+     1185823 -816745)
+    (connect (terminal smd A2-10) (terminal wire))
+   )
+   (wire (path B.Cu 3000  892802 -762000 876300 -762000)
+    (connect (terminal wire) (terminal smd A1-10))
+   )
+   (wire (path B.Cu 3000  978050 -946751 996745 -965446 1141474 -965446
+     1149350 -973322 1149350 -996950)
+    (connect (terminal wire) (terminal smd U4-16))
+   )
+   (wire (path B.Cu 3000  733933 -1687711 733933 -1671210)
+    (connect (terminal wire) (terminal smd U1-1))
+   )
+   (wire (path B.Cu 3000  759800 -597099 759800 -526065 830833 -455032
+     1142606 -455032 1194823 -507249 1194823 -663901 1179822 -678902)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path B.Cu 3000  609052 -717400 629039 -717400 649025 -697414
+     649025 -609638 661564 -597099 759800 -597099)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 3000  550358 -1193745 550358 -1302050)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path B.Cu 3000  765801 -1092200 749300 -1092200)
+    (connect (terminal wire) (terminal smd A3-2))
+   )
+   (wire (path B.Cu 3000  539550 -1168400 527050 -1168400)
+    (connect (terminal wire) (terminal smd R32-1))
+   )
+   (wire (path B.Cu 3000  584200 -1302050 604679 -1302050 623729 -1321100
+     641350 -1321100)
+    (connect (terminal smd JP60-1) (terminal smd JP50-1))
+   )
+   (wire (path B.Cu 3000  539750 -1384300 527249 -1371799 527249 -1362211
+     550358 -1339102)
+    (connect (terminal smd R21-1) (terminal via))
+   )
+   (wire (path B.Cu 3000  584200 -1302050 550358 -1302050)
+    (connect (terminal smd JP60-1) (terminal via))
+   )
+   (wire (path B.Cu 3000  1145549 -1193800 1162050 -1193800)
+    (connect (terminal wire) (terminal smd A4-11))
+   )
+   (wire (path B.Cu 3000  550358 -1339102 547751 -1339102 547751 -1335150
+     547750 -1335150 539750 -1327150)
+    (connect (terminal via) (terminal smd R20-1))
+   )
+   (wire (path F.Cu 3000  550358 -1302050 550358 -1339102)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path F.Cu 3000  550358 -1193745 550358 -1189956 539550 -1179148)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path B.Cu 3000  704850 -996950 704850 -980449 742751 -980449
+     742751 -1019658 751514 -1028421 771231 -1028421 777803 -1034993
+     777803 -1106324 801580 -1130101 886650 -1130101 898802 -1117949
+     898802 -1019452)
+    (connect (terminal smd U3-10) (terminal wire))
+   )
+   (wire (path B.Cu 3000  1179822 -678902 1173821 -672901 1095775 -672901
+     1057874 -635000 1036320 -635000)
+    (connect (terminal wire) (terminal smd A2-2))
+   )
+   (wire (path B.Cu 3000  898802 -1019452 857250 -1019452 857250 -996950)
+    (connect (terminal wire) (terminal smd U3-16))
+   )
+   (wire (path B.Cu 3000  759800 -597099 765801 -597099 765801 -635000
+     749300 -635000)
+    (connect (terminal wire) (terminal smd A1-2))
+   )
+   (wire (path B.Cu 3000  704850 -996950 704850 -1048298)
+    (connect (terminal smd U3-10) (terminal via))
+   )
+   (wire (path B.Cu 3000  1145549 -1219200 1162050 -1219200)
+    (connect (terminal wire) (terminal smd A4-10))
+   )
+   (wire (path B.Cu 3000  876300 -1193800 892801 -1193800 892801 -1219200
+     876300 -1219200)
+    (connect (terminal smd A3-11) (terminal smd A3-10))
+   )
+   (wire (path F.Cu 3000  704850 -1048298 559403 -1193745 550358 -1193745)
+    (connect (terminal via) (terminal wire))
+   )
+   (via "Via[0-1]_800:400_um" 550358 -1339102)
+   (via "Via[0-1]_800:400_um" 539550 -1179148)
+   (via "Via[0-1]_800:400_um" 550358 -1302050)
+   (via "Via[0-1]_800:400_um" 704850 -1048298)
+   )
+  )
+ )
+)

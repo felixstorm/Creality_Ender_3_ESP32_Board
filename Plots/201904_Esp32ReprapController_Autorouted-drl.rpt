@@ -1,0 +1,27 @@
+Drill report for C:\Data\Felix\Making\Electronics\201904_Esp32ReprapController\201904_Esp32ReprapController_Autorouted.kicad_pcb
+Created on 10.05.2019 14:42:15
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file '201904_Esp32ReprapController_Autorouted.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,40mm  0,016"  (26 holes)
+    T2  0,80mm  0,031"  (184 holes)
+    T3  1,00mm  0,039"  (75 holes)
+    T4  2,00mm  0,079"  (4 holes)
+    T5  2,40mm  0,094"  (2 holes)
+
+    Total plated holes count 291
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T6  3,00mm  0,118"  (4 holes)
+
+    Total unplated holes count 4
