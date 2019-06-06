@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name esp32controller-rescue)(type Legacy)(uri ${KIPRJMOD}/esp32controller-rescue.lib)(options "")(descr ""))
-)
