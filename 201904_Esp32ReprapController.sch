@@ -85,8 +85,6 @@ F 3 "" H 8850 2600 50  0001 C CNN
 	1    8850 2600
 	1    0    0    -1  
 $EndComp
-Text Label 8850 2200 2    50   ~ 0
-I2S_BCK
 $Comp
 L power:VCC #PWR0104
 U 1 1 5CB9EFDF
@@ -98,28 +96,18 @@ F 3 "" H 8850 2300 50  0001 C CNN
 	1    8850 2300
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	8850 2500 8550 2500
-Text Label 8550 2500 0    50   ~ 0
-I2S_WS
-Text Label 8850 2000 2    50   ~ 0
-I2S_DATA
-Text Label 9900 2000 2    50   ~ 0
+Text Label 9650 2000 0    50   ~ 0
 Q128
-Text Label 9900 2100 2    50   ~ 0
-Q129
-Text Label 9900 2200 2    50   ~ 0
-Q130
-Text Label 9900 2300 2    50   ~ 0
-Q131
-Text Label 9900 2400 2    50   ~ 0
-Q132
-Text Label 9900 2500 2    50   ~ 0
-Q133
-Text Label 9900 2600 2    50   ~ 0
-Q134
-Text Label 9900 2700 2    50   ~ 0
-Q135
+Text Label 9650 2100 0    50   ~ 0
+Q129_Z_DIR
+Text Label 9650 2200 0    50   ~ 0
+Q130_Z_STEP
+Text Label 9650 2300 0    50   ~ 0
+Q131_Z_EN
+Text Label 9650 2400 0    50   ~ 0
+Q132_Y_DIR
+Text Label 9650 2500 0    50   ~ 0
+Q133_Y_STEP
 $Comp
 L 74xx:74HC595 U4
 U 1 1 5CB9EFF9
@@ -153,10 +141,6 @@ F 3 "" H 11100 2600 50  0001 C CNN
 	1    11100 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11100 2200 10800 2200
-Text Label 10800 2200 0    50   ~ 0
-I2S_BCK
 $Comp
 L power:VCC #PWR0107
 U 1 1 5CB9F00E
@@ -168,26 +152,20 @@ F 3 "" H 11100 2300 50  0001 C CNN
 	1    11100 2300
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	11100 2500 10800 2500
-Text Label 10800 2500 0    50   ~ 0
-I2S_WS
-Text Label 12150 2000 2    50   ~ 0
+Text Label 11900 2000 0    50   ~ 0
 Q136
-Text Label 12150 2100 2    50   ~ 0
-Q137
-Text Label 12150 2200 2    50   ~ 0
-Q138
-Text Label 12150 2300 2    50   ~ 0
-Q139
-Text Label 12150 2400 2    50   ~ 0
-Q140
-Text Label 12150 2500 2    50   ~ 0
-Q141
-Text Label 12150 2600 2    50   ~ 0
-Q142
-Text Label 12150 2700 2    50   ~ 0
-Q143
+Text Label 11900 2100 0    50   ~ 0
+Q137_X_STEP
+Text Label 11900 2200 0    50   ~ 0
+Q138_X_EN
+Text Label 11900 2300 0    50   ~ 0
+Q139_E_EN
+Text Label 11900 2400 0    50   ~ 0
+Q140_E_STEP
+Text Label 11900 2600 0    50   ~ 0
+Q142_FAN2
+Text Label 11900 2700 0    50   ~ 0
+Q143_FAN3
 $Comp
 L Device:C C160
 U 1 1 5CB9F08B
@@ -244,44 +222,44 @@ Wire Wire Line
 Wire Wire Line
 	1750 4450 2050 4450
 $Comp
-L Device:R R12
+L Device:R R15
 U 1 1 5CB81051
-P 1600 5400
-F 0 "R12" V 1600 5400 50  0000 C CNN
-F 1 "10" V 1484 5400 50  0000 C CNN
-F 2 "Felix_Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1530 5400 50  0001 C CNN
-F 3 "~" H 1600 5400 50  0001 C CNN
-	1    1600 5400
+P 1600 5500
+F 0 "R15" V 1600 5500 50  0000 C CNN
+F 1 "10" V 1484 5500 50  0000 C CNN
+F 2 "Felix_Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1530 5500 50  0001 C CNN
+F 3 "~" H 1600 5500 50  0001 C CNN
+	1    1600 5500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1450 5400 1350 5400
+	1450 5500 1350 5500
 $Comp
-L Device:R R13
+L Device:R R16
 U 1 1 5CB81059
-P 1600 5600
-F 0 "R13" V 1600 5600 50  0000 C CNN
-F 1 "100k" V 1700 5600 50  0000 C CNN
-F 2 "Felix_Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1530 5600 50  0001 C CNN
-F 3 "~" H 1600 5600 50  0001 C CNN
-	1    1600 5600
+P 1600 5700
+F 0 "R16" V 1600 5700 50  0000 C CNN
+F 1 "100k" V 1700 5700 50  0000 C CNN
+F 2 "Felix_Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1530 5700 50  0001 C CNN
+F 3 "~" H 1600 5700 50  0001 C CNN
+	1    1600 5700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1450 5600 1350 5600
+	1450 5700 1350 5700
 Wire Wire Line
-	1350 5600 1350 5400
-Connection ~ 1350 5400
+	1350 5700 1350 5500
+Connection ~ 1350 5500
 Wire Wire Line
-	1350 5400 1050 5400
+	1350 5500 1050 5500
 Wire Wire Line
-	1750 5600 2050 5600
-Text Label 1350 6450 2    50   ~ 0
-FAN1
+	1750 5700 2050 5700
+Text Label 1450 6450 2    50   ~ 0
+IO13_FAN1
 Text Label 1050 4250 0    50   ~ 0
-NOZZLE
-Text Label 1050 5400 0    50   ~ 0
-BED
+IO2_NOZZLE
+Text Label 1050 5500 0    50   ~ 0
+IO4_BED
 $Comp
 L Device:Q_NMOS_GDS Q1
 U 1 1 5CB81094
@@ -296,12 +274,12 @@ $EndComp
 $Comp
 L Device:Q_NMOS_GDS Q2
 U 1 1 5CB8109C
-P 1950 5400
-F 0 "Q2" H 2155 5446 50  0000 L CNN
-F 1 "IRLB8743" H 2155 5355 50  0000 L CNN
-F 2 "Felix_Common:TO-220-3_Vertical_LongPads" H 2150 5500 50  0001 C CNN
-F 3 "~" H 1950 5400 50  0001 C CNN
-	1    1950 5400
+P 1950 5500
+F 0 "Q2" H 2155 5546 50  0000 L CNN
+F 1 "IRLB8743" H 2155 5455 50  0000 L CNN
+F 2 "Felix_Common:TO-220-3_Vertical_LongPads" H 2150 5600 50  0001 C CNN
+F 3 "~" H 1950 5500 50  0001 C CNN
+	1    1950 5500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -348,16 +326,6 @@ F 3 "" H 14500 1150 50  0001 C CNN
 	1    14500 1150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13900 1950 13400 1950
-Wire Wire Line
-	13900 1850 13400 1850
-Text Label 13400 1750 0    50   ~ 0
-Q130
-Text Label 13400 1850 0    50   ~ 0
-Q128
-Text Label 13400 1950 0    50   ~ 0
-Q129
 Wire Notes Line
 	15250 800  15250 3100
 Wire Notes Line
@@ -456,8 +424,6 @@ F 3 "" H 4800 4850 50  0001 C CNN
 	1    4800 4850
 	1    0    0    -1  
 $EndComp
-Text Label 5650 4550 2    50   ~ 0
-BED_T
 $Comp
 L Device:R R22
 U 1 1 5CCABC8B
@@ -491,86 +457,45 @@ F 3 "" H 6550 4850 50  0001 C CNN
 	1    6550 4850
 	1    0    0    -1  
 $EndComp
-Text Label 7400 4550 2    50   ~ 0
-NOZZLE_T
 $Comp
 L Connector_Generic:Conn_01x02 J30
 U 1 1 5CCABCAF
-P 5300 5450
-F 0 "J30" H 5380 5492 50  0000 L CNN
-F 1 "Conn_X_Min" H 5380 5401 50  0000 L CNN
-F 2 "Felix_Common:PinHeader_1x02_P2.54mm_Vertical_LongPads" H 5300 5450 50  0001 C CNN
-F 3 "~" H 5300 5450 50  0001 C CNN
-	1    5300 5450
+P 5500 6050
+F 0 "J30" H 5580 6092 50  0000 L CNN
+F 1 "Conn_X_Min" H 5580 6001 50  0000 L CNN
+F 2 "Felix_Common:PinHeader_1x02_P2.54mm_Vertical_LongPads" H 5500 6050 50  0001 C CNN
+F 3 "~" H 5500 6050 50  0001 C CNN
+	1    5500 6050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5100 5450 4800 5450
-Text Label 4800 5450 0    50   ~ 0
-X_MIN
-$Comp
-L power:GND #PWR0123
-U 1 1 5CCABCBE
-P 5100 5550
-F 0 "#PWR0123" H 5100 5300 50  0001 C CNN
-F 1 "GND" V 5105 5422 50  0000 R CNN
-F 2 "" H 5100 5550 50  0001 C CNN
-F 3 "" H 5100 5550 50  0001 C CNN
-	1    5100 5550
-	0    1    1    0   
-$EndComp
+Text Label 5300 6050 2    50   ~ 0
+IO34_X_MIN
 $Comp
 L Connector_Generic:Conn_01x02 J31
 U 1 1 5CCABCC4
-P 5300 5800
-F 0 "J31" H 5380 5842 50  0000 L CNN
-F 1 "Conn_Y_Min" H 5380 5751 50  0000 L CNN
-F 2 "Felix_Common:PinHeader_1x02_P2.54mm_Vertical_LongPads" H 5300 5800 50  0001 C CNN
-F 3 "~" H 5300 5800 50  0001 C CNN
-	1    5300 5800
+P 6600 6050
+F 0 "J31" H 6680 6092 50  0000 L CNN
+F 1 "Conn_Y_Min" H 6680 6001 50  0000 L CNN
+F 2 "Felix_Common:PinHeader_1x02_P2.54mm_Vertical_LongPads" H 6600 6050 50  0001 C CNN
+F 3 "~" H 6600 6050 50  0001 C CNN
+	1    6600 6050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5100 5800 4800 5800
-Text Label 4800 5800 0    50   ~ 0
-Y_MIN
-$Comp
-L power:GND #PWR0124
-U 1 1 5CCABCD3
-P 5100 5900
-F 0 "#PWR0124" H 5100 5650 50  0001 C CNN
-F 1 "GND" V 5105 5772 50  0000 R CNN
-F 2 "" H 5100 5900 50  0001 C CNN
-F 3 "" H 5100 5900 50  0001 C CNN
-	1    5100 5900
-	0    1    1    0   
-$EndComp
+Text Label 6400 6050 2    50   ~ 0
+IO35_Y_MIN
 $Comp
 L Connector_Generic:Conn_01x02 J32
 U 1 1 5CCABCD9
-P 5300 6150
-F 0 "J32" H 5380 6192 50  0000 L CNN
-F 1 "Conn_Z_Min" H 5380 6101 50  0000 L CNN
-F 2 "Felix_Common:PinHeader_1x02_P2.54mm_Vertical_LongPads" H 5300 6150 50  0001 C CNN
-F 3 "~" H 5300 6150 50  0001 C CNN
-	1    5300 6150
+P 7700 6050
+F 0 "J32" H 7780 6092 50  0000 L CNN
+F 1 "Conn_Z_Min" H 7780 6001 50  0000 L CNN
+F 2 "Felix_Common:PinHeader_1x02_P2.54mm_Vertical_LongPads" H 7700 6050 50  0001 C CNN
+F 3 "~" H 7700 6050 50  0001 C CNN
+	1    7700 6050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5100 6150 4800 6150
-Text Label 4800 6150 0    50   ~ 0
-Z_MIN
-$Comp
-L power:GND #PWR0125
-U 1 1 5CCABCE8
-P 5100 6250
-F 0 "#PWR0125" H 5100 6000 50  0001 C CNN
-F 1 "GND" V 5105 6122 50  0000 R CNN
-F 2 "" H 5100 6250 50  0001 C CNN
-F 3 "" H 5100 6250 50  0001 C CNN
-	1    5100 6250
-	0    1    1    0   
-$EndComp
+Text Label 7500 6050 2    50   ~ 0
+IO32_Z_MIN
 Text Notes 4750 5350 0    50   ~ 0
 Endstops
 Wire Notes Line
@@ -590,260 +515,154 @@ Wire Notes Line
 Wire Notes Line
 	4700 5250 8250 5250
 $Comp
-L Device:CP C22
-U 1 1 5CCABCF7
-P 6550 4700
-F 0 "C22" H 6665 4746 50  0000 L CNN
-F 1 "4.7uF" H 6665 4655 50  0000 L CNN
-F 2 "Felix_Common:CP_Radial_D5.0mm_P2.00mm" H 6588 4550 50  0001 C CNN
-F 3 "~" H 6550 4700 50  0001 C CNN
-	1    6550 4700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R30
 U 1 1 5CCD76D1
-P 6700 5700
-F 0 "R30" H 6770 5746 50  0000 L CNN
-F 1 "10k" H 6770 5655 50  0000 L CNN
-F 2 "Felix_Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6630 5700 50  0001 C CNN
-F 3 "~" H 6700 5700 50  0001 C CNN
-	1    6700 5700
+P 4850 5750
+F 0 "R30" H 4920 5796 50  0000 L CNN
+F 1 "10k" H 4920 5705 50  0000 L CNN
+F 2 "Felix_Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4780 5750 50  0001 C CNN
+F 3 "~" H 4850 5750 50  0001 C CNN
+	1    4850 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0126
 U 1 1 5CCD76D8
-P 6700 5550
-F 0 "#PWR0126" H 6700 5400 50  0001 C CNN
-F 1 "VCC" H 6717 5723 50  0000 C CNN
-F 2 "" H 6700 5550 50  0001 C CNN
-F 3 "" H 6700 5550 50  0001 C CNN
-	1    6700 5550
+P 4850 5600
+F 0 "#PWR0126" H 4850 5450 50  0001 C CNN
+F 1 "VCC" H 4867 5773 50  0000 C CNN
+F 2 "" H 4850 5600 50  0001 C CNN
+F 3 "" H 4850 5600 50  0001 C CNN
+	1    4850 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 5850 6700 6000
-Wire Wire Line
-	6700 6000 7000 6000
-Text Label 7000 6000 2    50   ~ 0
-X_MIN
+	4850 5900 4850 6050
 $Comp
 L Device:C C30
 U 1 1 5CCD76E1
-P 6700 6150
-F 0 "C30" H 6815 6196 50  0000 L CNN
-F 1 "0.1uF" H 6815 6105 50  0000 L CNN
-F 2 "Felix_Common:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 6738 6000 50  0001 C CNN
-F 3 "~" H 6700 6150 50  0001 C CNN
-	1    6700 6150
+P 4850 6200
+F 0 "C30" H 4965 6246 50  0000 L CNN
+F 1 "0.1uF" H 4965 6155 50  0000 L CNN
+F 2 "Felix_Common:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 4888 6050 50  0001 C CNN
+F 3 "~" H 4850 6200 50  0001 C CNN
+	1    4850 6200
 	1    0    0    -1  
 $EndComp
-Connection ~ 6700 6000
 $Comp
 L power:GND #PWR0127
 U 1 1 5CCD76E9
-P 6700 6300
-F 0 "#PWR0127" H 6700 6050 50  0001 C CNN
-F 1 "GND" H 6705 6127 50  0000 C CNN
-F 2 "" H 6700 6300 50  0001 C CNN
-F 3 "" H 6700 6300 50  0001 C CNN
-	1    6700 6300
+P 4850 6350
+F 0 "#PWR0127" H 4850 6100 50  0001 C CNN
+F 1 "GND" H 4855 6177 50  0000 C CNN
+F 2 "" H 4850 6350 50  0001 C CNN
+F 3 "" H 4850 6350 50  0001 C CNN
+	1    4850 6350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R31
 U 1 1 5CCD76EF
-P 7100 5700
-F 0 "R31" H 7170 5746 50  0000 L CNN
-F 1 "10k" H 7170 5655 50  0000 L CNN
-F 2 "Felix_Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7030 5700 50  0001 C CNN
-F 3 "~" H 7100 5700 50  0001 C CNN
-	1    7100 5700
+P 5950 5750
+F 0 "R31" H 6020 5796 50  0000 L CNN
+F 1 "10k" H 6020 5705 50  0000 L CNN
+F 2 "Felix_Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5880 5750 50  0001 C CNN
+F 3 "~" H 5950 5750 50  0001 C CNN
+	1    5950 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0128
 U 1 1 5CCD76F6
-P 7100 5550
-F 0 "#PWR0128" H 7100 5400 50  0001 C CNN
-F 1 "VCC" H 7117 5723 50  0000 C CNN
-F 2 "" H 7100 5550 50  0001 C CNN
-F 3 "" H 7100 5550 50  0001 C CNN
-	1    7100 5550
+P 5950 5600
+F 0 "#PWR0128" H 5950 5450 50  0001 C CNN
+F 1 "VCC" H 5967 5773 50  0000 C CNN
+F 2 "" H 5950 5600 50  0001 C CNN
+F 3 "" H 5950 5600 50  0001 C CNN
+	1    5950 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 5850 7100 6000
-Wire Wire Line
-	7100 6000 7400 6000
-Text Label 7400 6000 2    50   ~ 0
-Y_MIN
+	5950 5900 5950 6050
 $Comp
 L Device:C C31
 U 1 1 5CCD76FF
-P 7100 6150
-F 0 "C31" H 7215 6196 50  0000 L CNN
-F 1 "0.1uF" H 7215 6105 50  0000 L CNN
-F 2 "Felix_Common:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 7138 6000 50  0001 C CNN
-F 3 "~" H 7100 6150 50  0001 C CNN
-	1    7100 6150
+P 5950 6200
+F 0 "C31" H 6065 6246 50  0000 L CNN
+F 1 "0.1uF" H 6065 6155 50  0000 L CNN
+F 2 "Felix_Common:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 5988 6050 50  0001 C CNN
+F 3 "~" H 5950 6200 50  0001 C CNN
+	1    5950 6200
 	1    0    0    -1  
 $EndComp
-Connection ~ 7100 6000
 $Comp
 L power:GND #PWR0129
 U 1 1 5CCD7707
-P 7100 6300
-F 0 "#PWR0129" H 7100 6050 50  0001 C CNN
-F 1 "GND" H 7105 6127 50  0000 C CNN
-F 2 "" H 7100 6300 50  0001 C CNN
-F 3 "" H 7100 6300 50  0001 C CNN
-	1    7100 6300
+P 5950 6350
+F 0 "#PWR0129" H 5950 6100 50  0001 C CNN
+F 1 "GND" H 5955 6177 50  0000 C CNN
+F 2 "" H 5950 6350 50  0001 C CNN
+F 3 "" H 5950 6350 50  0001 C CNN
+	1    5950 6350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R32
 U 1 1 5CCD770D
-P 7500 5700
-F 0 "R32" H 7570 5746 50  0000 L CNN
-F 1 "10k" H 7570 5655 50  0000 L CNN
-F 2 "Felix_Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7430 5700 50  0001 C CNN
-F 3 "~" H 7500 5700 50  0001 C CNN
-	1    7500 5700
+P 7050 5750
+F 0 "R32" H 7120 5796 50  0000 L CNN
+F 1 "10k" H 7120 5705 50  0000 L CNN
+F 2 "Felix_Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6980 5750 50  0001 C CNN
+F 3 "~" H 7050 5750 50  0001 C CNN
+	1    7050 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0130
 U 1 1 5CCD7714
-P 7500 5550
-F 0 "#PWR0130" H 7500 5400 50  0001 C CNN
-F 1 "VCC" H 7517 5723 50  0000 C CNN
-F 2 "" H 7500 5550 50  0001 C CNN
-F 3 "" H 7500 5550 50  0001 C CNN
-	1    7500 5550
+P 7050 5600
+F 0 "#PWR0130" H 7050 5450 50  0001 C CNN
+F 1 "VCC" H 7067 5773 50  0000 C CNN
+F 2 "" H 7050 5600 50  0001 C CNN
+F 3 "" H 7050 5600 50  0001 C CNN
+	1    7050 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7500 5850 7500 6000
-Wire Wire Line
-	7500 6000 7800 6000
-Text Label 7800 6000 2    50   ~ 0
-Z_MIN
+	7050 5900 7050 6050
 $Comp
 L Device:C C32
 U 1 1 5CCD771D
-P 7500 6150
-F 0 "C32" H 7615 6196 50  0000 L CNN
-F 1 "0.1uF" H 7615 6105 50  0000 L CNN
-F 2 "Felix_Common:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 7538 6000 50  0001 C CNN
-F 3 "~" H 7500 6150 50  0001 C CNN
-	1    7500 6150
+P 7050 6200
+F 0 "C32" H 7165 6246 50  0000 L CNN
+F 1 "0.1uF" H 7165 6155 50  0000 L CNN
+F 2 "Felix_Common:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 7088 6050 50  0001 C CNN
+F 3 "~" H 7050 6200 50  0001 C CNN
+	1    7050 6200
 	1    0    0    -1  
 $EndComp
-Connection ~ 7500 6000
 $Comp
 L power:GND #PWR0131
 U 1 1 5CCD7725
-P 7500 6300
-F 0 "#PWR0131" H 7500 6050 50  0001 C CNN
-F 1 "GND" H 7505 6127 50  0000 C CNN
-F 2 "" H 7500 6300 50  0001 C CNN
-F 3 "" H 7500 6300 50  0001 C CNN
-	1    7500 6300
+P 7050 6350
+F 0 "#PWR0131" H 7050 6100 50  0001 C CNN
+F 1 "GND" H 7055 6177 50  0000 C CNN
+F 2 "" H 7050 6350 50  0001 C CNN
+F 3 "" H 7050 6350 50  0001 C CNN
+	1    7050 6350
 	1    0    0    -1  
 $EndComp
-Text Notes 6450 6600 0    50   ~ 0
-External debouncing circuit for the endstops
-Wire Wire Line
-	5300 1900 4900 1900
-Wire Wire Line
-	5300 1800 4900 1800
-Wire Wire Line
-	5300 2000 4900 2000
-Wire Wire Line
-	5300 2100 4900 2100
-Wire Wire Line
-	5300 2200 4900 2200
-Wire Wire Line
-	5300 2300 4900 2300
-Wire Wire Line
-	5300 2400 4900 2400
-Wire Wire Line
-	5300 2500 4900 2500
-Wire Wire Line
-	5300 2600 4900 2600
-Wire Wire Line
-	5300 2700 4900 2700
-Wire Wire Line
-	5300 2800 4900 2800
-Wire Wire Line
-	5300 3000 4900 3000
-Wire Wire Line
-	5300 3100 4900 3100
-Wire Wire Line
-	5300 3200 4900 3200
-Wire Wire Line
-	5300 3300 4900 3300
-Wire Wire Line
-	5300 3400 4900 3400
-Wire Wire Line
-	7300 1700 6900 1700
-Wire Wire Line
-	6900 1800 7300 1800
-Wire Wire Line
-	6900 2100 7300 2100
-Wire Wire Line
-	6900 2300 7300 2300
-Wire Wire Line
-	6900 2400 7300 2400
-Wire Wire Line
-	6900 2500 7300 2500
-Wire Wire Line
-	6900 2600 7300 2600
-Wire Wire Line
-	6900 2700 7300 2700
-Wire Wire Line
-	6900 2800 7300 2800
-Wire Wire Line
-	6900 2900 7300 2900
-Wire Wire Line
-	6900 3000 7300 3000
-Wire Wire Line
-	6900 3100 7300 3100
-Wire Wire Line
-	6900 3200 7300 3200
-Wire Wire Line
-	6900 3300 7300 3300
-Wire Wire Line
-	6900 3400 7300 3400
-Text Label 4900 1800 0    50   ~ 0
-NOZZLE_T
-Text Label 4900 1900 0    50   ~ 0
-BED_T
-Wire Wire Line
-	5300 2900 4900 2900
-Text Label 4900 2900 0    50   ~ 0
+Text Label 5300 1900 2    50   ~ 0
+I39_T_NOZ
+Text Label 5300 2900 2    50   ~ 0
 GND
-Text Label 7300 1700 2    50   ~ 0
+Text Label 6900 1700 0    50   ~ 0
 SD_MOSI
-Text Label 7300 2800 2    50   ~ 0
-BED
-Text Label 7300 3000 2    50   ~ 0
-NOZZLE
-Wire Wire Line
-	6900 1600 7300 1600
-Wire Wire Line
-	6900 2200 7300 2200
-Text Label 7300 1600 2    50   ~ 0
+Text Label 6900 1600 0    50   ~ 0
 GND
-Text Label 7300 2200 2    50   ~ 0
+Text Label 6900 2200 0    50   ~ 0
 GND
-Wire Wire Line
-	5300 1600 4900 1600
-Text Label 4900 1600 0    50   ~ 0
-VCC
-Text Label 4900 3400 0    50   ~ 0
+Text Label 5300 3400 2    50   ~ 0
 +5V
 $Comp
 L Driver_Motor:Pololu_Breakout_A4988 A2
@@ -889,16 +708,6 @@ F 3 "" H 14500 3550 50  0001 C CNN
 	1    14500 3550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13900 4350 13400 4350
-Wire Wire Line
-	13900 4250 13400 4250
-Text Label 13400 4150 0    50   ~ 0
-Q133
-Text Label 13400 4250 0    50   ~ 0
-Q131
-Text Label 13400 4350 0    50   ~ 0
-Q132
 Wire Notes Line
 	15250 3200 15250 5500
 Wire Notes Line
@@ -995,16 +804,6 @@ F 3 "" H 14500 5950 50  0001 C CNN
 	1    14500 5950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13900 6750 13400 6750
-Wire Wire Line
-	13900 6650 13400 6650
-Text Label 13400 6550 0    50   ~ 0
-Q136
-Text Label 13400 6650 0    50   ~ 0
-Q134
-Text Label 13400 6750 0    50   ~ 0
-Q135
 Wire Notes Line
 	15250 5600 15250 7900
 Wire Notes Line
@@ -1101,16 +900,6 @@ F 3 "" H 12300 5950 50  0001 C CNN
 	1    12300 5950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11700 6750 11200 6750
-Wire Wire Line
-	11700 6650 11200 6650
-Text Label 11200 6550 0    50   ~ 0
-Q139
-Text Label 11200 6650 0    50   ~ 0
-Q137
-Text Label 11200 6750 0    50   ~ 0
-Q138
 Wire Notes Line
 	13050 5600 13050 7900
 Wire Notes Line
@@ -1207,12 +996,6 @@ F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 13550 2800 50  0001 C CNN
 	1    13550 2800
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4900 1700 5300 1700
-Wire Wire Line
-	6900 1900 7300 1900
-Wire Wire Line
-	6900 2000 7300 2000
 $Comp
 L power:VCC #PWR0155
 U 1 1 5CC65544
@@ -1227,23 +1010,23 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J11
 U 1 1 5CC9183B
-P 2500 5100
-F 0 "J11" H 2580 5092 50  0000 L CNN
-F 1 "BED" H 2580 5001 50  0000 L CNN
-F 2 "Felix_Common:TerminalBlock_ScrewTerminal_1x02_P5.00mm_Horizontal" H 2500 5100 50  0001 C CNN
-F 3 "~" H 2500 5100 50  0001 C CNN
-	1    2500 5100
+P 2550 5200
+F 0 "J11" H 2630 5192 50  0000 L CNN
+F 1 "BED" H 2630 5101 50  0000 L CNN
+F 2 "Felix_Common:TerminalBlock_ScrewTerminal_1x02_P5.00mm_Horizontal" H 2550 5200 50  0001 C CNN
+F 3 "~" H 2550 5200 50  0001 C CNN
+	1    2550 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J10
 U 1 1 5CC918FF
-P 2500 3950
-F 0 "J10" H 2579 3942 50  0000 L CNN
-F 1 "NOZZLE" H 2579 3851 50  0000 L CNN
-F 2 "Felix_Common:TerminalBlock_ScrewTerminal_1x02_P5.00mm_Horizontal" H 2500 3950 50  0001 C CNN
-F 3 "~" H 2500 3950 50  0001 C CNN
-	1    2500 3950
+P 2550 3950
+F 0 "J10" H 2629 3942 50  0000 L CNN
+F 1 "NOZZLE" H 2629 3851 50  0000 L CNN
+F 2 "Felix_Common:TerminalBlock_ScrewTerminal_1x02_P5.00mm_Horizontal" H 2550 3950 50  0001 C CNN
+F 3 "~" H 2550 3950 50  0001 C CNN
+	1    2550 3950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1327,14 +1110,6 @@ Wire Wire Line
 	7400 4650 7400 4850
 Wire Wire Line
 	5650 4650 5650 4850
-Text Label 4900 2000 0    50   ~ 0
-X_MIN
-Text Label 4900 2100 0    50   ~ 0
-Y_MIN
-Text Label 7300 3100 2    50   ~ 0
-Z_MIN
-Text Label 4900 3000 0    50   ~ 0
-FAN1
 $Comp
 L Device:Fuse F1
 U 1 1 5CC487EA
@@ -1447,12 +1222,6 @@ F 3 "" H 10850 2800 50  0001 C CNN
 	1    10850 2800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9650 2900 10600 2900
-Wire Wire Line
-	10600 2900 10600 2000
-Wire Wire Line
-	10600 2000 11100 2000
 $Comp
 L power:VCC #PWR0164
 U 1 1 5CD8B3F1
@@ -1464,40 +1233,28 @@ F 3 "" H 11500 1800 50  0001 C CNN
 	1    11500 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2300 3950 2050 3950
-Wire Wire Line
-	2050 4050 2300 4050
 $Comp
 L power:+24V #PWR0166
 U 1 1 5CE2ABB8
-P 2050 3900
-F 0 "#PWR0166" H 2050 3750 50  0001 C CNN
-F 1 "+24V" H 2065 4073 50  0000 C CNN
-F 2 "" H 2050 3900 50  0001 C CNN
-F 3 "" H 2050 3900 50  0001 C CNN
-	1    2050 3900
+P 2350 3750
+F 0 "#PWR0166" H 2350 3600 50  0001 C CNN
+F 1 "+24V" H 2365 3923 50  0000 C CNN
+F 2 "" H 2350 3750 50  0001 C CNN
+F 3 "" H 2350 3750 50  0001 C CNN
+	1    2350 3750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2050 3900 2050 3950
-Wire Wire Line
-	2300 5200 2050 5200
 $Comp
 L Felix_Specials:+24V2 #PWR0168
 U 1 1 5CEB1914
-P 2050 5050
-F 0 "#PWR0168" H 2050 4900 50  0001 C CNN
-F 1 "+24V2" H 2065 5223 50  0000 C CNN
-F 2 "" H 2050 5050 50  0001 C CNN
-F 3 "" H 2050 5050 50  0001 C CNN
-	1    2050 5050
+P 2350 5000
+F 0 "#PWR0168" H 2350 4850 50  0001 C CNN
+F 1 "+24V2" H 2365 5173 50  0000 C CNN
+F 2 "" H 2350 5000 50  0001 C CNN
+F 3 "" H 2350 5000 50  0001 C CNN
+	1    2350 5000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2050 5050 2050 5100
-Wire Wire Line
-	2050 5100 2300 5100
 $Comp
 L power:+5V #PWR0169
 U 1 1 5CEEE439
@@ -1558,11 +1315,11 @@ Text Label 11350 3900 0    50   ~ 0
 SD_SCK
 Text Label 11350 3800 0    50   ~ 0
 SD_CS
-Text Label 7300 2500 2    50   ~ 0
+Text Label 6900 2500 0    50   ~ 0
 SD_CS
-Text Label 7300 2400 2    50   ~ 0
+Text Label 6900 2400 0    50   ~ 0
 SD_SCK
-Text Label 7300 2300 2    50   ~ 0
+Text Label 6900 2300 0    50   ~ 0
 SD_MISO
 NoConn ~ 11700 7150
 NoConn ~ 13900 7150
@@ -1590,7 +1347,6 @@ F 3 "~" H 5300 1500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5300 1500 5300 1600
-Connection ~ 5300 1600
 Wire Wire Line
 	1250 2050 1450 2050
 $Comp
@@ -1648,14 +1404,6 @@ F 3 "" H 9850 4250 50  0001 C CNN
 	1    9850 4250
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	10150 4100 9800 4100
-Wire Wire Line
-	10150 4000 9800 4000
-Wire Wire Line
-	10150 3900 9800 3900
-Wire Wire Line
-	10150 3800 9800 3800
 $Comp
 L power:GND #PWR0173
 U 1 1 5D0EA801
@@ -1667,76 +1415,20 @@ F 3 "" H 9250 4250 50  0001 C CNN
 	1    9250 4250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8950 4100 9300 4100
-Wire Wire Line
-	8950 4000 9300 4000
-Wire Wire Line
-	8950 3900 9300 3900
-Wire Wire Line
-	8950 3800 9300 3800
-Text Label 8950 4000 0    50   ~ 0
-BTN_EN2
-Text Label 8950 3900 0    50   ~ 0
-BTN_EN1
-Text Label 10150 3800 2    50   ~ 0
-BTN_ENC
-Text Label 10150 4100 2    50   ~ 0
-LCD_EN
-Text Label 8950 4100 0    50   ~ 0
-LCD_RS
-Text Label 10150 4000 2    50   ~ 0
-LCD_D4
-Text Label 10150 3900 2    50   ~ 0
-~RESET
-Text Label 8950 3800 0    50   ~ 0
+Text Label 9300 4000 2    50   ~ 0
+IO25_BTN_EN2
+Text Label 9300 3900 2    50   ~ 0
+IO26_BTN_EN1
+Text Label 9800 3800 0    50   ~ 0
+IO27_BTN_ENC
+Text Label 9800 4100 0    50   ~ 0
+IO12_LCD_EN
+Text Label 9300 4100 2    50   ~ 0
+IO33_LCD_RS
+Text Label 9800 4000 0    50   ~ 0
+IO14_LCD_D4
+Text Label 9300 3800 2    50   ~ 0
 BEEPER
-Text Label 4900 2500 0    50   ~ 0
-I2S_WS
-Text Label 4900 2400 0    50   ~ 0
-I2S_BCK
-Text Label 4900 2600 0    50   ~ 0
-I2S_DATA
-Wire Wire Line
-	9650 2000 9900 2000
-Wire Wire Line
-	9650 2100 9900 2100
-Wire Wire Line
-	9650 2200 9900 2200
-Wire Wire Line
-	9650 2300 9900 2300
-Wire Wire Line
-	9650 2400 9900 2400
-Wire Wire Line
-	9650 2500 9900 2500
-Wire Wire Line
-	9650 2600 9900 2600
-Wire Wire Line
-	9650 2700 9900 2700
-Wire Wire Line
-	11900 2000 12150 2000
-Wire Wire Line
-	11900 2100 12150 2100
-Wire Wire Line
-	11900 2200 12150 2200
-Wire Wire Line
-	11900 2300 12150 2300
-Wire Wire Line
-	11900 2400 12150 2400
-Wire Wire Line
-	11900 2500 12150 2500
-Wire Wire Line
-	11900 2600 12150 2600
-Wire Wire Line
-	11900 2700 12150 2700
-Wire Wire Line
-	13400 1750 13900 1750
-Wire Wire Line
-	13400 4150 13900 4150
-Wire Wire Line
-	13400 6550 13900 6550
-Wire Wire Line
-	11200 6550 11700 6550
 Wire Wire Line
 	9300 4200 9250 4200
 Wire Wire Line
@@ -1745,20 +1437,12 @@ Wire Wire Line
 	9850 4200 9800 4200
 Wire Wire Line
 	9250 4200 9250 4250
-Text Label 7300 1800 2    50   ~ 0
-LCD_D4
-Text Label 7300 2100 2    50   ~ 0
-LCD_EN
-Text Label 7300 2600 2    50   ~ 0
-LCD_RS
-Text Label 7300 2700 2    50   ~ 0
-BEEPER
-Text Label 4900 2800 0    50   ~ 0
-BTN_EN1
-Text Label 4900 2700 0    50   ~ 0
-BTN_EN2
-Text Label 4900 2300 0    50   ~ 0
-BTN_ENC
+Text Label 6900 2100 0    50   ~ 0
+IO21_I2S_DATA
+Text Label 6900 1800 0    50   ~ 0
+IO22_I2S_BCK
+Text Label 6900 2600 0    50   ~ 0
+IO17_I2S_WS
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J60
 U 1 1 5D37797F
@@ -1773,42 +1457,34 @@ $EndComp
 $Comp
 L power:GND #PWR0179
 U 1 1 5D39A9D7
-P 10200 5200
-F 0 "#PWR0179" H 10200 4950 50  0001 C CNN
-F 1 "GND" H 10205 5027 50  0000 C CNN
-F 2 "" H 10200 5200 50  0001 C CNN
-F 3 "" H 10200 5200 50  0001 C CNN
-	1    10200 5200
+P 10350 5200
+F 0 "#PWR0179" H 10350 4950 50  0001 C CNN
+F 1 "GND" H 10355 5027 50  0000 C CNN
+F 2 "" H 10350 5200 50  0001 C CNN
+F 3 "" H 10350 5200 50  0001 C CNN
+	1    10350 5200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9800 5200 10200 5200
-Wire Wire Line
-	9800 5300 10100 5300
-Text Label 10100 5300 2    50   ~ 0
-SERVO
+Text Label 9800 5300 0    50   ~ 0
+IO15_SERVO
 NoConn ~ 9800 5100
 NoConn ~ 9300 5000
 NoConn ~ 9300 5100
 NoConn ~ 9300 5200
 NoConn ~ 9300 5300
-Text Label 4900 2200 0    50   ~ 0
-SERVO
-Text Label 4900 1700 0    50   ~ 0
-~RESET
+Text Label 5300 1700 2    50   ~ 0
+~ESP32_EN
 Text Label 1250 2050 0    50   ~ 0
 PWR_IN
-NoConn ~ 7300 1900
-NoConn ~ 7300 2000
-NoConn ~ 7300 2900
-NoConn ~ 7300 3200
-NoConn ~ 7300 3300
-NoConn ~ 7300 3400
-NoConn ~ 4900 3300
-NoConn ~ 4900 3200
-NoConn ~ 4900 3100
-NoConn ~ 12150 2600
-NoConn ~ 12150 2700
+NoConn ~ 6900 1900
+NoConn ~ 6900 2000
+NoConn ~ 6900 2900
+NoConn ~ 6900 3200
+NoConn ~ 6900 3300
+NoConn ~ 6900 3400
+NoConn ~ 5300 3300
+NoConn ~ 5300 3200
+NoConn ~ 5300 3100
 $Comp
 L power:GND #PWR0109
 U 1 1 5CCF8B5E
@@ -1956,15 +1632,15 @@ Connection ~ 2050 4450
 $Comp
 L power:GND #PWR0148
 U 1 1 5CC6708A
-P 2050 5600
-F 0 "#PWR0148" H 2050 5350 50  0001 C CNN
-F 1 "GND" H 2055 5427 50  0000 C CNN
-F 2 "" H 2050 5600 50  0001 C CNN
-F 3 "" H 2050 5600 50  0001 C CNN
-	1    2050 5600
+P 2050 5700
+F 0 "#PWR0148" H 2050 5450 50  0001 C CNN
+F 1 "GND" H 2055 5527 50  0000 C CNN
+F 2 "" H 2050 5700 50  0001 C CNN
+F 3 "" H 2050 5700 50  0001 C CNN
+	1    2050 5700
 	1    0    0    -1  
 $EndComp
-Connection ~ 2050 5600
+Connection ~ 2050 5700
 Wire Wire Line
 	1250 2150 1450 2150
 $Comp
@@ -2112,7 +1788,6 @@ Wire Wire Line
 Wire Wire Line
 	7000 4550 6550 4550
 Connection ~ 7000 4550
-Connection ~ 6550 4550
 $Comp
 L Device:CP C1
 U 1 1 5CF8BE44
@@ -2311,19 +1986,10 @@ Wire Wire Line
 Connection ~ 1450 6850
 Wire Wire Line
 	1450 7050 1450 7150
-Wire Wire Line
-	1450 7050 1100 7050
-Connection ~ 1450 7050
-Wire Wire Line
-	1450 6750 1100 6750
-Connection ~ 1450 6750
-Wire Wire Line
-	1450 6450 1100 6450
-Connection ~ 1450 6450
-Text Label 1350 6750 2    50   ~ 0
-Q140
-Text Label 1350 7050 2    50   ~ 0
-Q141
+Text Label 1450 6750 2    50   ~ 0
+Q142_FAN2
+Text Label 1450 7050 2    50   ~ 0
+Q143_FAN3
 $Comp
 L power:GND #PWR0181
 U 1 1 5D0ECD0C
@@ -2335,4 +2001,236 @@ F 3 "" H 1850 7350 50  0001 C CNN
 	1    1850 7350
 	1    0    0    -1  
 $EndComp
+Text Label 11900 2500 0    50   ~ 0
+Q141_E_DIR
+Text Label 11700 6750 2    50   ~ 0
+Q141_E_DIR
+Text Label 11700 6650 2    50   ~ 0
+Q140_E_STEP
+Text Label 11700 6550 2    50   ~ 0
+Q139_E_EN
+NoConn ~ 11900 2000
+Text Label 9650 2700 0    50   ~ 0
+Q135_X_DIR
+Text Label 9650 2600 0    50   ~ 0
+Q134_Y_EN
+Text Label 13900 1750 2    50   ~ 0
+Q138_X_EN
+Text Label 13900 1850 2    50   ~ 0
+Q137_X_STEP
+NoConn ~ 9650 2000
+Text Label 13900 1950 2    50   ~ 0
+Q135_X_DIR
+Text Label 13900 4350 2    50   ~ 0
+Q132_Y_DIR
+Text Label 13900 4250 2    50   ~ 0
+Q133_Y_STEP
+Text Label 13900 4150 2    50   ~ 0
+Q134_Y_EN
+Text Label 13900 6750 2    50   ~ 0
+Q129_Z_DIR
+Text Label 13900 6650 2    50   ~ 0
+Q130_Z_STEP
+Text Label 13900 6550 2    50   ~ 0
+Q131_Z_EN
+Text Label 8850 2000 2    50   ~ 0
+IO21_I2S_DATA
+Text Label 8850 2200 2    50   ~ 0
+IO22_I2S_BCK
+Text Label 8850 2500 2    50   ~ 0
+IO17_I2S_WS
+Text Label 11100 2200 2    50   ~ 0
+IO22_I2S_BCK
+Text Label 11100 2500 2    50   ~ 0
+IO17_I2S_WS
+Wire Wire Line
+	9650 2900 10400 2900
+Wire Wire Line
+	10400 2900 10400 2000
+Wire Wire Line
+	10400 2000 11100 2000
+Text Label 5300 1800 2    50   ~ 0
+I36_T_BED
+Text Label 5650 4550 2    50   ~ 0
+I36_T_BED
+Text Label 7400 4550 2    50   ~ 0
+I39_T_NOZ
+$Comp
+L power:VCC #PWR0182
+U 1 1 5D012C9C
+P 5000 1500
+F 0 "#PWR0182" H 5000 1350 50  0001 C CNN
+F 1 "VCC" H 5017 1673 50  0000 C CNN
+F 2 "" H 5000 1500 50  0001 C CNN
+F 3 "" H 5000 1500 50  0001 C CNN
+	1    5000 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 1500 5000 1600
+Wire Wire Line
+	5000 1600 5300 1600
+Connection ~ 5300 1600
+NoConn ~ 9800 3900
+NoConn ~ 5300 1700
+NoConn ~ 9300 3800
+Text Label 9800 3900 0    50   ~ 0
+~RESET
+Wire Wire Line
+	9800 5200 10350 5200
+Text Notes 4750 6650 0    50   ~ 0
+External debouncing circuit for the endstops
+Wire Wire Line
+	5300 6050 4850 6050
+Connection ~ 4850 6050
+Wire Wire Line
+	5300 6150 5300 6350
+$Comp
+L power:GND #PWR0123
+U 1 1 5D04957D
+P 5300 6350
+F 0 "#PWR0123" H 5300 6100 50  0001 C CNN
+F 1 "GND" H 5305 6177 50  0000 C CNN
+F 2 "" H 5300 6350 50  0001 C CNN
+F 3 "" H 5300 6350 50  0001 C CNN
+	1    5300 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5D066E52
+P 6400 6350
+F 0 "#PWR0124" H 6400 6100 50  0001 C CNN
+F 1 "GND" H 6405 6177 50  0000 C CNN
+F 2 "" H 6400 6350 50  0001 C CNN
+F 3 "" H 6400 6350 50  0001 C CNN
+	1    6400 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 6150 6400 6350
+Wire Wire Line
+	6400 6050 5950 6050
+Connection ~ 5950 6050
+$Comp
+L power:GND #PWR0125
+U 1 1 5D07B65C
+P 7500 6350
+F 0 "#PWR0125" H 7500 6100 50  0001 C CNN
+F 1 "GND" H 7505 6177 50  0000 C CNN
+F 2 "" H 7500 6350 50  0001 C CNN
+F 3 "" H 7500 6350 50  0001 C CNN
+	1    7500 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 6150 7500 6350
+Wire Wire Line
+	7500 6050 7050 6050
+Connection ~ 7050 6050
+Text Label 5300 2000 2    50   ~ 0
+IO34_X_MIN
+Text Label 5300 2100 2    50   ~ 0
+IO35_Y_MIN
+Text Label 5300 2200 2    50   ~ 0
+IO32_Z_MIN
+Text Label 5300 2500 2    50   ~ 0
+IO26_BTN_EN1
+Text Label 5300 2400 2    50   ~ 0
+IO25_BTN_EN2
+Text Label 5300 2600 2    50   ~ 0
+IO27_BTN_ENC
+Text Label 5300 2700 2    50   ~ 0
+IO14_LCD_D4
+Text Label 5300 2300 2    50   ~ 0
+IO33_LCD_RS
+Text Label 5300 2800 2    50   ~ 0
+IO12_LCD_EN
+Text Label 6900 3100 0    50   ~ 0
+IO15_SERVO
+Text Label 5300 3000 2    50   ~ 0
+IO13_FAN1
+Text Label 6900 3000 0    50   ~ 0
+IO2_NOZZLE
+Text Label 6900 2800 0    50   ~ 0
+IO4_BED
+NoConn ~ 6900 2700
+Wire Wire Line
+	2350 4050 2050 4050
+Wire Wire Line
+	2350 3950 2350 3750
+Wire Wire Line
+	2350 5300 2050 5300
+Wire Wire Line
+	2350 5200 2350 5000
+$Comp
+L Device:LED D2
+U 1 1 5CFA4828
+P 2200 3750
+F 0 "D2" H 2050 3950 50  0000 C CNN
+F 1 "LED_NOZ" H 2050 3850 50  0000 C CNN
+F 2 "Felix_Common:LED_D5.0mm" H 2200 3750 50  0001 C CNN
+F 3 "~" H 2200 3750 50  0001 C CNN
+	1    2200 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 2350 3750
+$Comp
+L Device:R R12
+U 1 1 5CFA4A7E
+P 2050 3900
+F 0 "R12" H 2120 3946 50  0000 L CNN
+F 1 "2.2k" H 2120 3855 50  0000 L CNN
+F 2 "Felix_Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1980 3900 50  0001 C CNN
+F 3 "~" H 2050 3900 50  0001 C CNN
+	1    2050 3900
+	1    0    0    -1  
+$EndComp
+Connection ~ 2050 4050
+$Comp
+L Device:R R17
+U 1 1 5CFA4D8B
+P 2050 5150
+F 0 "R17" H 2120 5196 50  0000 L CNN
+F 1 "2.2k" H 2120 5105 50  0000 L CNN
+F 2 "Felix_Common:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1980 5150 50  0001 C CNN
+F 3 "~" H 2050 5150 50  0001 C CNN
+	1    2050 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 2050 5300
+$Comp
+L Device:LED D3
+U 1 1 5CFA4E2D
+P 1900 5000
+F 0 "D3" H 2000 5250 50  0000 C CNN
+F 1 "LED_BED" H 2000 5150 50  0000 C CNN
+F 2 "Felix_Common:LED_D5.0mm" H 1900 5000 50  0001 C CNN
+F 3 "~" H 1900 5000 50  0001 C CNN
+	1    1900 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+24V #PWR0183
+U 1 1 5CFAA1CA
+P 1750 5000
+F 0 "#PWR0183" H 1750 4850 50  0001 C CNN
+F 1 "+24V" H 1765 5173 50  0000 C CNN
+F 2 "" H 1750 5000 50  0001 C CNN
+F 3 "" H 1750 5000 50  0001 C CNN
+	1    1750 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C22
+U 1 1 5CFC055F
+P 6550 4700
+F 0 "C22" H 6665 4746 50  0000 L CNN
+F 1 "4.7uF" H 6665 4655 50  0000 L CNN
+F 2 "Felix_Common:CP_Radial_D5.0mm_P2.00mm" H 6588 4550 50  0001 C CNN
+F 3 "~" H 6550 4700 50  0001 C CNN
+	1    6550 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 6550 4550
 $EndSCHEMATC

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--************************************************************-->
+<!--   File    : 201904_Esp32ReprapController_Autorouted.fsproj -->
+<!--   Format  : TopoR Project file                             -->
+<!--   Version : 2                                              -->
+<!--   Program : TopoR Lite 7.0.18508                           -->
+<!--   Date    : Thursday, June 06, 2019                        -->
+<!--   Time    : 10:56                                          -->
+<!--************************************************************-->
+
+<Project>
+   <Version current="2"/>
+   <GUID>{A9DBB032-8C73-478C-A6F8-F671D76934A5}</GUID>
+   <Documents>
+      <Section name="PCB" isExpanded="true">
+         <File path=".\201904_Esp32ReprapController.fsx" isopened="0" dateChange="2019-06-05 09:28:14"/>
+         <File path=".\201904_Esp32ReprapController_5344-14w.fsx" isopened="1" dateChange="2019-06-05 09:48:57"/>
+      </Section>
+      <Section name="AutoRouting" isExpanded="true">
+         <File path=".\autoroute_190605092138\201904_Esp32ReprapController_4910-18w.fsb" isopened="0" dateChange="1601-01-01 00:00:00"/>
+         <File path=".\autoroute_190605092138\201904_Esp32ReprapController_5239-16w.fsb" isopened="0" dateChange="1601-01-01 00:00:00"/>
+         <File path=".\autoroute_190605092138\201904_Esp32ReprapController_5344-14w.fsb" isopened="0" dateChange="1601-01-01 00:00:00"/>
+         <File path=".\autoroute_190605092138\201904_Esp32ReprapController_5520-13w.fsb" isopened="0" dateChange="1601-01-01 00:00:00"/>
+      </Section>
+   </Documents>
+   <Import>
+      <ToporPCB>
+         <Path name="C:\Data\Felix\Making\Electronics\201904_Esp32ReprapController\201904_Esp32ReprapController.fst"/>
+      </ToporPCB>
+      <Specctra>
+         <Path name="C:\Data\Felix\Making\Electronics\201904_Esp32ReprapController\201904_Esp32ReprapController.dsn"/>
+      </Specctra>
+   </Import>
+</Project>

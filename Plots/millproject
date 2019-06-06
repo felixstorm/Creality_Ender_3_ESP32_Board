@@ -1,0 +1,33 @@
+metric=true
+metricoutput=true
+nog81=true          # G81 is not supported by Estlcam
+mill-speed=20000    # dummy
+drill-speed=20000   # dummy
+cut-speed=20000     # dummy
+zcut=0              # dummy (why is this necessary if we are not cutting a board outline?)
+cutter-diameter=0   # dummy (why is this necessary if we are not cutting a board outline?)
+cut-infeed=100      # dummy (why is this necessary if we are not cutting a board outline?)
+zchange=30
+zsafe=1
+
+back=201904_Esp32ReprapController_Autorouted-B.Cu.gbr
+# Etwas größer gewählt, um zwei dicht nebeneinander liegende Fräsbahnen zu einer zusammenzufassen.
+# Außerdem werden dadurch die Leiterbahnen etwas breiter (sofern Platz vorhanden ist) und das Risiko, 
+# dass eine Bahn durchbrochen ist, sinkt.
+mill-diameters=0.5
+zwork=-0.15        # selbst mit Abtasten scheint es nicht immer sauber zu laufen, daher: viel hilft viel
+mill-feed=100      # FR2 / Hartpapier (150 geht auch noch, aber es entstehen schon deutliche Grate und bei 200 brechen 0.1er-Fräser nach ein paar Minuten ab)
+
+drill=201904_Esp32ReprapController_Autorouted.drl
+zdrill=-2.1
+drill-feed=200      # FR2 / Hartpapier
+drills-available=0.8,1
+
+milldrill=true
+zmilldrill=-2.1
+min-milldrill-hole-diameter=1.01mm   # need "mm" here for whatever reason
+milldrill-diameter=1
+cut-feed=200        # FR2 / Hartpapier
+
+# milldrill produziert G2-Vollkreise, die von Estlcam nicht verstanden werden.
+# Wenn man die letzte Nachkommastelle manuell in jedem G2 eins hochzählt, dann geht es.
