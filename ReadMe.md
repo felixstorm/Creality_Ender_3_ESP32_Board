@@ -11,7 +11,7 @@ This is the third iteration of the board, and although it has only been in use f
 ## Technical Notes
 * The board is the bare minimum to help my Ender 3 to a 32 bit brain and WiFi. I use breakout boards wherever it makes sense to reduce complexity as much as possible. It is not primarly geared towards low cost, but towards little effort (although it took more of it than I hoped for in the beginning ;-) ).
 * The board is through hole and single sided with a few wire bridges. This is because I am so old that I am more used to THT than SMD, because most stuff is on on breakout boards anyway and because I wanted to mill the board on my CNC.
-* There is a PDF with schematic and board layout to get a quick look.
+* There is a [PDF](https://github.com/felixstorm/Creality_Ender_3_ESP32_Board/blob/master/201904_Esp32ReprapController_Schematic_and_Layout.pdf) with schematic and board layout to get a quick look.
 * The board is larger (100 x 160 mm) than the stock Ender 3 mainboard, so you will need (to print) a different case for it. I will probably develop one some time, put it on Thingiverse and then link it from here.
 * SD card reader: I am using a microSD to regular SD extension and have the SD card reader mounted behind the display, so I used a microSD breakout board with the slot oriented inwards where I just plug in the extension cable. The board used to be 5V, but I shorted the voltage regulator with some solder to make it work with 3.3V.
 Stepper Drivers: I use TMC2208 because they are quiet and relatively cheap. Since I am not interested in any tuning here, I hard-wired it's configuration pins. In case you want to use different drivers, you might have to cut traces on these pins or change the layout.
@@ -22,4 +22,4 @@ I have yet to make use of WiFi. My plan is to use [ESP3D](https://github.com/luc
 * I used [KiCad](http://www.kicad-pcb.org/) for the schematic and the board and [TopoR Lite](https://www.eremex.com/products/topor/) for auto-routing. TopoR works quite well, is available for free with some (totally acceptable) limitations and was pretty helpful as it also has a special single-sided mode, even though it took some time to get used to.
 * For milling, I used [pcb2gcode](https://github.com/pcb2gcode/pcb2gcode), which also worked well for me since it allows to add safety margins easily by setting a cutter width larger than the actual cutter. It will still mill between traces that are closer together than theoretically possible with the specified cutter width (which [FlatCAM](http://flatcam.org/) unfortunately does not do), but leaves all other traces wider. And although it is command-line only, one can put all settings in a config file per project and it does dump out nice SVG files where it illustrates its calculations.
 
-License: MIT
+## License: MIT
